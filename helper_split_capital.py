@@ -1,18 +1,22 @@
-a = "HolaQueTalHoa"
+a = "LargeSoftwareBook"
 
-def split_capital(str):
 
-    result = []
-    temp = str[0]
-
-    for i in range(1,len(str)):
-        # print(str[i])
-        if str[i].isupper():
+def split_capital(string:str) -> list:
+    """
+    (str)->[]
+    """
+    result = []  # holds the results
+    temp = ""  # holds one section of the string being processed
+    for index, variable in enumerate(string):
+        if variable.isupper() and index != 0:  # if char is capital and not the first.
             result.append(temp)
             temp = ''
-        temp+= str[i]
+        temp += variable
 
+        if variable == string[-1]:  # checks for the end of the string and add the last part
+            result.append(temp)
     return result
+
 
 print(split_capital(a))
 
