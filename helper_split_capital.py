@@ -13,7 +13,7 @@ def split_capital(string:str) -> list:
             temp = ''
         temp += i[1]
 
-        if i[0] == len(str)-1:
+        if i[0] == len(string)-1:
             result.append(temp)
     return result
 
