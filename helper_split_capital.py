@@ -5,15 +5,15 @@ def split_capital(string:str) -> list:
     """
     (str)->[]
     """
-    result = []
+    result = []  # holds the results
     temp = ""  # holds one section of the string being processed
-    for i in enumerate(string):
-        if i[1].isupper() and i[0] != 0:
+    for index, variable in enumerate(string):
+        if variable.isupper() and index != 0:
             result.append(temp)
             temp = ''
-        temp += i[1]
+        temp += variable
 
-        if i[0] == len(string)-1:
+        if variable == string[-1]: # checks for the end of the string and add the last part
             result.append(temp)
     return result
 
