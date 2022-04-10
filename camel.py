@@ -20,38 +20,36 @@ def split_capital(string: str) -> list:
 while True:
     try:
         linea = input().split(";")
-        # print(linea)
-        result = []
-        if linea[0] == "C":  # combine
-            option = linea[1]
+        string_result = ""
+        operation = linea[0]  # split or combine
+        option = linea[1]  # method, class, variable
+        values = linea[2]  # string of values, name
+        if operation == "C":  # combine
+            temp = values.split()
             if option in ["M", "V"]:
-                temp = linea[2].split()
-                # temp_result = ""
                 for i in range(0, len(temp)):
                     if i == 0:
-                        print(temp[i], end="")
-                        # temp_result += temp[i]
+                        string_result += temp[i]
                     else:
-                        print(temp[i].capitalize(), end="")
-                        # temp_result += temp[i].capitalize()
+                        string_result += temp[i].capitalize()
                 if option == "M":
-                    print("()")
-
+                    string_result += "()"
             else:
-                temp = linea[2].split()
-                print("{}{}".format(temp[0].capitalize(), temp[1].capitalize()))
+                for i in temp:
+                    string_result += i.capitalize()
 
         else:  # split
-            option = linea[1]
+            temp = split_capital(values)
             if option in ["C", "V"]:
-                temp = split_capital(linea[2])
                 for i in temp:
-                    print(i.lower(), end=" ")
-                print()
-            else:
-                print(linea[2])
+                    string_result += i.lower() + " "
+            else:  # Method
+                for i in temp:
+                    string_result += i.lower() + " "
+                string_result = string_result[:-3]  # remove () and space
+
+        print(string_result)
     except:
         break
-
 
 
