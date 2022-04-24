@@ -1,5 +1,4 @@
 # https://www.hackerrank.com/challenges/three-month-preparation-kit-closest-numbers/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-four
-
 # !/bin/python3
 
 import math
@@ -25,17 +24,17 @@ def closestNumbers(arr):
         substraction = abs(arr[i] - arr[i + 1])
         # print(arr[i], arr[i+1], substraction)
         if substraction not in dictionary_diff:
-            # dictionary_diff[substraction] = [(arr[i], arr[i+1])]
-            dictionary_diff[substraction] = [arr[i], arr[i + 1]]
+            dictionary_diff[substraction] = [(arr[i], arr[i + 1])]
+            # dictionary_diff[substraction] = [arr[i], arr[i+1]]
 
         else:
-            # dictionary_diff[substraction].append(((arr[i], arr[i+1])))
-            dictionary_diff[substraction] += [arr[i], arr[i + 1]]
-        print(dictionary_diff)
+            dictionary_diff[substraction].append(((arr[i], arr[i + 1])))
+            # dictionary_diff[substraction] += [arr[i], arr[i+1]]
+        # print(dictionary_diff)
 
     minimum = min(dictionary_diff.keys())
-    # return [x for i in dictionary_diff[minimum] for x in i ]
-    return dictionary_diff[minimum]
+    return [x for i in dictionary_diff[minimum] for x in i]
+    # return dictionary_diff[minimum]
 
 
 if __name__ == '__main__':
