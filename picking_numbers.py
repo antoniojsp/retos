@@ -1,6 +1,4 @@
 #!/bin/python3
-# https://www.hackerrank.com/challenges/three-month-preparation-kit-picking-numbers/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-four
-# !/bin/python3
 
 import math
 import os
@@ -50,19 +48,20 @@ def pickingNumbers(a):
 
     # version using list.
     a.sort()
-    current = a[0]
+    current_value = a[0]
     count = 0
-    maximo = 0
-    for i in a:
-        if i - current == 1 or i == current:
+    maximoSoFar = 0
+    for value in a:
+        absoluteDiff = value - current_value
+        if absoluteDiff == 1 or absoluteDiff == 0:
             count += 1
-            maximo = max(maximo, count)
+            maximoSoFar = max(maximoSoFar, count)
         else:
-            maximo = max(maximo, count)
-            current = i
+            maximoSoFar = max(maximoSoFar, count)
+            current_value = value
             count = 1
 
-    return maximo
+    return maximoSoFar
 
 
 if __name__ == '__main__':
