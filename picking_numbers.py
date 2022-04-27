@@ -13,6 +13,10 @@ import sys
 # The function is expected to return an INTEGER.
 # The function accepts INTEGER_ARRAY a as parameter.
 #
+def isAbsoluteValueDiffRight(first_value, second_value):
+    absolute_difference = abs(first_value - second_value)
+    return absolute_difference == 0 or absolute_difference == 1
+
 
 def pickingNumbers(a):
     # Write your code here
@@ -52,8 +56,7 @@ def pickingNumbers(a):
     count = 0
     maximoSoFar = 0
     for value in a:
-        absoluteDiff = value - current_value
-        if absoluteDiff == 1 or absoluteDiff == 0:
+        if isAbsoluteValueDiffRight(value, current_value):
             count += 1
             maximoSoFar = max(maximoSoFar, count)
         else:
