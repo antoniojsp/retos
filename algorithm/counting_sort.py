@@ -6,7 +6,7 @@ def counting_sort(arr) -> list:
     for i in arr:
         counting_arr[i] += 1
 
-    for i in range(1,len(counting_arr)):
+    for i in range(1, len(counting_arr)):
         counting_arr[i] = counting_arr[i] + counting_arr[i-1]
 
     output = [None]*len(a)
@@ -14,7 +14,6 @@ def counting_sort(arr) -> list:
     for i in arr:
         counting_arr[i] -= 1
         output[counting_arr[i]] = i
-
 
     return output
 
