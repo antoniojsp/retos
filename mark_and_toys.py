@@ -1,5 +1,5 @@
 #!/bin/python3
-#https://www.hackerrank.com/challenges/mark-and-toys/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting
+
 import math
 import os
 import random
@@ -15,7 +15,6 @@ import sys
 #  1. INTEGER_ARRAY prices
 #  2. INTEGER k
 #
-
 def maximumToys(prices, k):
     # O(n)
     prices.sort()  # O(nlogn)
@@ -26,7 +25,7 @@ def maximumToys(prices, k):
         if suma <= k:
             count += 1
         else:
-            break
+            break  # run out of money. Max number of gifts
 
     return count
 
