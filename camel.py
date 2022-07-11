@@ -1,7 +1,5 @@
-https://www.hackerrank.com/challenges/three-month-preparation-kit-camel-case/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-one
-
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-def split_capital(string:str) -> list:
+def split_capital(string: str) -> list:
     """
     (str)->[]
     """
@@ -13,23 +11,47 @@ def split_capital(string:str) -> list:
             temp = ''
         temp += variable
 
-        if variable == string[-1]:  # checks for the end of the string and add the last part
-            result.append(temp)
+        if index == len(string) - 1:  # checks for the end of the string and add the last part
+            result.append(temp.rstrip())
+    # print(result)
     return result
 
-while True:
-    linea = input().split(";")
-    print(linea)
-    if linea[0] == "C":
-        option = linea[1]
-        if option in ["M", "V"] :
-            temp = linea[2].split()
+
+import sys
+
+inputData = [line for line in sys.stdin.readlines()]
+
+for i in inputData:
+
+    linea = i.split(";")
+    string_result = ""
+    operation = linea[0]  # split or combine
+    option = linea[1]  # method, class, variable
+    values = linea[2]  # string of values, name
+    if operation == "C":  # combine
+        temp = values.split()
+        if option in ["M", "V"]:
             for i in range(0, len(temp)):
                 if i == 0:
-                    print(temp[i], end="")
+                    string_result += temp[i]
                 else:
-                    print(temp[i].capitalize(), end="")
-            print("()")
-        else:
-            temp = linea[2].split()
-            print("{}{}".format(temp[0].capitalize(),temp[1].capitalize()))
+                    string_result += temp[i].capitalize()
+            if option == "M":  # add () for methods
+                string_result += "()"
+        else:  # classes. All capitalize
+            for i in temp:
+                string_result += i.capitalize()
+
+    else:  # split
+        temp = split_capital(values)
+        if option in ["C", "V"]:
+            for i in temp:
+                string_result += i.lower() + " "
+        else:  # Method
+            for i in temp:
+                string_result += i.lower() + " "
+            string_result = string_result[:-3]  # remove () and space
+
+    print(string_result)
+
+
