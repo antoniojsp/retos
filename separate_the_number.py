@@ -4,8 +4,9 @@ from math import floor
 
 def separate_numbers(s):
 
-    first_occurrence = s[:1]
-    print(first_occurrence)
+    digits = 1
+    for index, value in enumerate(s):
+        if value 
 
 s = "1234"
 example2 = "91011"
