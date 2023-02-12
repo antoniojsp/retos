@@ -1,20 +1,4 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-# https://www.hackerrank.com/challenges/qheap1/problem?isFullScreen=true
-def heapify(arr: list):
-    for i, j in enumerate(arr):
-        current = i
-        while True:
-            parent = (current - 1) // 2
-            if parent < 0:
-                break
-            elif arr[parent] > arr[current]:
-                arr[parent], arr[current] = arr[current], arr[parent]
-                current = parent
-            else:
-                break
-    return arr
-
-
 def add(arr: list, val: int) -> list:
     arr.append(val)
     current = len(arr) - 1
