@@ -1,12 +1,25 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-def add(arr: list, val: int) -> list:
+
+def heapify(arr:list):
+    for i, j in enumerate(arr):
+        current = i
+        while True:
+            parent = (current-1)//2
+            if current == 0:
+                break
+            if  arr[parent] > arr[current]:
+                arr[parent], arr[current] = arr[current], arr[parent]
+                current = parent
+            else:
+                break
+    return arr
+
+def add(arr: list, val:int)->list:
     arr.append(val)
-    current = len(arr) - 1
-    while True:
-        parent = (current - 1) // 2
-        if current == 0:
-            break
-        elif arr[parent] > arr[current]:
+    current = len(arr)-1
+    while current != 0:
+        parent = (current-1)//2
+
+        if arr[parent] > arr[current]:
             arr[current], arr[parent] = arr[parent], arr[current]
             current = parent
         else:
@@ -29,13 +42,13 @@ def delete(arr: list, val: int):
 
     while parent < len(arr):
 
-        left = parent * 2 + 1
-        right = parent * 2 + 2
+        left = parent*2+1
+        right = parent*2+2
 
-        if left > len(arr) - 1:
+        if left > len(arr)-1:
             break
 
-        if right > len(arr) - 1:
+        if right > len(arr)-1:
             if arr[parent] > arr[left]:
                 arr[parent], arr[left] = arr[left], arr[parent]
             break
@@ -54,18 +67,28 @@ def delete(arr: list, val: int):
     return arr
 
 
-queries = input()
-result = []
 
-for i in range(int(queries)):
-    val = input().split()
-    if val[0] == "1":
-        result = add(result, int(val[1]))
 
-    elif val[0] == "2":
-        result = delete(result, int(val[1]))
 
-    else:
-        print(result[0])
+
+
+# result = [23,1,2,56,3,25,13,5,89,7,4,134,4]
+# result = heapify(result)
+# print(result)
+new = []
+result = [23,1,2,56,3,25,13,5,89,7,4,134,4]
+
+for i in result:
+    add(new, i)
+
+print(new)
+# delete(new, 2)
+# print(new)
+
+
+
+
+
+
 
 
