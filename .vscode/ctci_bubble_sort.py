@@ -10,7 +10,7 @@ import sys
 #
 # Complete the 'countSwaps' function below.
 #
-# The function accepts INTEGER_ARRAY a as parameter.
+# The function accepts INTEGER_AY a as parameter.
 #
 def countSwaps(a):
     # Write your code here
