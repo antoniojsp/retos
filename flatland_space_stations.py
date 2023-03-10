@@ -9,12 +9,10 @@ import sys
 
 def segments_max(arr: list, max_distance=0):
     for i in range(1, len(arr)):
-        distance = abs(arr[i - 1] - arr[i])
-        if distance % 2 == 0:
-            midpoint = distance / 2
-        else:
-            midpoint = distance // 2
+        distance = abs(arr[i] - arr[i -1]) # distance
+        midpoint = distance // 2
         max_distance = max(max_distance, midpoint)
+        print(midpoint)
 
     return int(max_distance)
 
@@ -41,19 +39,4 @@ def flatlandSpaceStations(n, c):
     return result
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    nm = input().split()
-
-    n = int(nm[0])
-
-    m = int(nm[1])
-
-    c = list(map(int, input().rstrip().split()))
-
-    result = flatlandSpaceStations(n, c)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+print(flatlandSpaceStations(20, [0,4,12,16]))
