@@ -8,13 +8,12 @@ def closestNumbers(arr):
         current = arr[i]
         next_index = arr[i+1]
         difference  = abs(current - next_index)
-
         smallest_diff = min(smallest_diff, difference)
 
         if difference not in diff:
-            diff[abs(difference)] = [current, next_index]
+            diff[difference] = [current, next_index]
         else:
-            diff[abs(current - next_index)].extend([ current, next_index])
+            diff[difference].extend([current, next_index])
 
     return diff[smallest_diff]
 
