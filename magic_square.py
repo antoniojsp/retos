@@ -1,56 +1,39 @@
-# https://www.hackerrank.com/challenges/three-month-preparation-kit-diagonal-difference/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-two
+a = [[1,2,3],[4,5,6],[6,7,8]]
 
-# !/bin/python3
+def print_matrix(arr:list):
+    for i in arr:
+        print(i, sep="\n")
+    print()
 
-import math
-import os
-import random
-import re
-import sys
+def rotate_matrix(arr:list, times:int)->list:
+    rotated_matrix  = arr
 
+    for i in range(0, times):
+        rotated = list(zip(*rotated_matrix))[::-1]
+        rotated_matrix = rotated
 
-#
-# Complete the 'diagonalDifference' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts 2D_INTEGER_ARRAY arr as parameter.
-#
-def flat(arr):
-    return [j for i in arr for j in i]
+    return rotated_matrix
 
+def invert_matrix(arr:list)->list:
+    inverted_matrix = arr
 
-def diagonalDifference(arr):
-    # Write your code here
-    if not arr:
-        return 0
-    flat_list = flat(arr)
-    lenght = len(arr)
+    for i in inverted_matrix:
+        i.reverse()
 
-    left, right = 0, 0
+    return inverted_matrix
 
-    for i, j in zip(range(0, len(flat_list), lenght + 1), range(lenght - 1, len(flat_list), lenght - 1)):
-        left += flat_list[i]
-        right += flat_list[j]
+def generate_magic_squares(arr:list):
+    a = arr
+    for i in range(4):
+        a = rotate_matrix(a, 1)
+        print_matrix(a)
 
-    # for i in range(0,len(flat_list)-1):
-    #     left += flat_list[i+(i*lenght-1)]
-    #     right += flat_list[(i+lenght-1)+(i*lenght-1)]
+    rotated = invert_matrix(a)
 
-    return abs(left - right)
+    b  = arr
+    for i in range(4):
+        b = rotate_matrix(b, 1)
+        print_matrix(b)
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    n = int(input().strip())
-
-    arr = []
-
-    for _ in range(n):
-        arr.append(list(map(int, input().rstrip().split())))
-
-    result = diagonalDifference(arr)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+generate_magic_squares(a)
