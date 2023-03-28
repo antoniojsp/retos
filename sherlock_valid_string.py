@@ -3,28 +3,31 @@ from collections import Counter
 
 def isValid(s):
     count = list(Counter(s).values())
-    #case 1 frequency all char are equal
-    temp = set(count)
-    print(count)
-    print(temp)
-    if len(temp) == 1:
+    frequencies = set(count)
+
+    #frequencies are the same in all chars -> YES
+    if len(frequencies) == 1:
         return "YES"
-    #case 2 more than 2 frequancies
-    if len(temp) > 2:
+    #case 2 more than 2 frequencies -> NO
+    if len(frequencies) > 2:
         return "NO"
-    list_set = list(temp)
-
-    if count.count(1) > 1 :
+    #It's valid if only has one character that doesn't repeat since it can be deleted
+    one_time_frequency = count.count(1)
+    if one_time_frequency == 1:
+        return "YES"
+    #it has more than one character the only appears once.
+    if one_time_frequency > 1 :
         return "NO"
+    #check the difference between the two frequency is one, at this point the list has two values
+    list_set = list(frequencies)
+    if abs(list_set[0]-list_set[1]) == 1:
+        return "YES"
 
-    if abs(list_set[0]-list_set[1]) > 1:
-        return "NO"
-
-    return "YES"
+    return "NO"
 
 
 
-test = ["aabbcd"]
+test = ["ibfdgaeadiaefgbhbdghhhbgdfgeiccbiehhfcggchgghadhdhagfbahhddgghbdehidbibaeaagaeeigffcebfbaieggabcfbiiedcabfihchdfabifahcbhagccbdfifhghcadfiadeeaheeddddiecaicbgigccageicehfdhdgafaddhffadigfhhcaedcedecafeacbdacgfgfeeibgaiffdehigebhhehiaahfidibccdcdagifgaihacihadecgifihbebffebdfbchbgigeccahgihbcbcaggebaaafgfedbfgagfediddghdgbgehhhifhgcedechahidcbchebheihaadbbbiaiccededchdagfhccfdefigfibifabeiaccghcegfbcghaefifbachebaacbhbfgfddeceababbacgffbagidebeadfihaefefegbghgddbbgddeehgfbhafbccidebgehifafgbghafacgfdccgifdcbbbidfifhdaibgigebigaedeaaiadegfefbhacgddhchgcbgcaeaieiegiffchbgbebgbehbbfcebciiagacaiechdigbgbghefcahgbhfibhedaeeiffebdiabcifgccdefabccdghehfibfiifdaicfedagahhdcbhbicdgibgcedieihcichadgchgbdcdagaihebbabhibcihicadgadfcihdheefbhffiageddhgahaidfdhhdbgciiaciegchiiebfbcbhaeagccfhbfhaddagnfieihghfbaggiffbbfbecgaiiidccdceadbbdfgigibgcgchafccdchgifdeieicbaididhfcfdedbhaadedfageigfdehgcdaecaebebebfcieaecfagfdieaefdiedbcadchabhebgehiidfcgahcdhcdhgchhiiheffiifeegcfdgbdeffhgeghdfhbfbifgidcafbfcd"]
 
 for i in test:
     print(isValid(i))
