@@ -1,27 +1,24 @@
 from collections import Counter
 
 
-from collections import Counter
-
-
 def isValid(s):
     count = list(Counter(s).values())
-    frequencies = set(count)
+    #case 1 frequency all char are equal
+    temp = set(count)
 
-    if len(frequencies) == 1:
+    if len(temp) == 1:
         return "YES"
-    if len(frequencies) > 2:
+    if len(temp) > 2:
         return "NO"
-    one_time_frequency = count.count(1)
-    if one_time_frequency == 1:
-        return "YES"
-    if one_time_frequency > 1 :
-        return "NO"
-    list_set = list(frequencies)
-    if abs(list_set[0]-list_set[1]) == 1:
-        return "YES"
+    list_set = list(temp)
 
-    return "NO"
+    if count.count(1) > 1 :
+        return "NO"
+
+    if abs(list_set[0]-list_set[1]) > 1:
+        return "NO"
+
+    return "YES"
 
 
 
