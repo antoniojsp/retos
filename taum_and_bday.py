@@ -1,25 +1,9 @@
-#https://www.hackerrank.com/challenges/taum-and-bday/problem
-
-"""
-check diff between value of white gift and black gift
-
-"""
-from collections import namedtuple
-
-
-# b, w = 3, 6
-# bc = 9
-# wc = 1
-# z = 1
-
-
-b, w = 3,6
-bc = 9
-wc = 1
-z = 1
-
-if abs(bc - wc) <= z:
-    result = b*bc + w*wc
-else:
-
-
+def taumBday(b, w, bc, wc, z):
+    # Write your code here
+    if abs(bc - wc) <= z:
+        result = b*bc + w*wc
+    else:
+        total_number_gifts = b + w
+        pair_values = (b,wc) if wc < bc else(w, bc)
+        result = total_number_gifts*pair_values[1] + z*pair_values[0]
+    return result
