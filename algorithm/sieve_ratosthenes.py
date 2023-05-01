@@ -11,4 +11,3 @@ def sieve(n):
 
     return [index for index, is_prime in enumerate(integers) if is_prime]
 
-print(sieve(100000000))
