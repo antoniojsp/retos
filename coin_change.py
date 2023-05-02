@@ -1,16 +1,11 @@
 def getWays(n, c):
-    # Write your code here
-    if n == 0:
-        return 1
-    if n < 0:
-        return 0
+    dp = [-1]*(n+1)
+    print(dp)
 
-    current  = 0
-    for i in c:
-        remainder = n - i
-        current +=  getWays(remainder, c)
+    for i in dp:
+        minimum = float('inf')
 
-    return current
+        for j in c:
 
 
-print(getWays(3, [8,3,1,2]))
+print(getWays(3,[8,3,1,2]))
