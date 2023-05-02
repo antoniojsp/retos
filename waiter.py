@@ -1,6 +1,6 @@
 from math import ceil, sqrt
 
-SIZE_ARRAY_MULTIPLIER = 15
+SIZE_ARRAY_MULTIPLIER = 15 # random variable hoping that the n first primes are inside that range
 
 def re_stack(source, destination):
     for _ in range(len(source)):
@@ -22,13 +22,13 @@ def sieve_position(n):
 def waiter(number, q):
     primes = sieve_position(q)
     answer = []
-    for index, value in enumerate(primes):
-        current = value
+    for index, prime in enumerate(primes):
+        current_prime = prime
         b = []
         a_i = []
         for _ in range(len(number)):
             top = number.pop()
-            if top % current == 0:
+            if top % current_prime == 0:
                 b.append(top)
             else:
                 a_i.append(top)
