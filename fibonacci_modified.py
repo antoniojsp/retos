@@ -9,3 +9,18 @@ def fibonacciModified(t1, t2, n):
 
 
 print(fibonacciModified(0,1 ,5))
+
+def fibo(num, cache):
+    print(cache)
+    if cache[num] == -1:
+        cache[num] = fibo(num - 1, cache)+fibo(num -2, cache)
+
+    return cache[num]
+
+def fibo_launch(n):
+
+    arr = [-1]*(n+1)
+    arr[0], arr[1] = 1,1
+    return fibo(n, arr)
+
+print(fibo_launch(5000))
