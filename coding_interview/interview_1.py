@@ -19,17 +19,18 @@ class Test:
 
 
     def remove(self, val):
-        temp = self.storage.pop()
-        if temp == val:
+        if val not in self.map:
             return
-
-        old_index = self.map[val]
-        self.storage[old_index] = temp
-        self.map[temp] = old_index
+        #first remove last element from storage array
+        last_value_from_storage = self.storage.pop()
+        #second look up the value to remove in the map, remove from the dict and save the index
+        index_to_be_removed = self.map.pop(val)
+        #third, set in the index of the value to be removed from storage as the value that was pop uo from the end of the list
+        self.storage[index_to_be_removed] = last_value_from_storage
+        #update map to show that the last element poo up is now in the place of the element deleted
+        self.map[last_value_from_storage] = index_to_be_removed
+        #update the length of the storage array
         self.length -=1
-        del self.map[val]
-
-
 
     def random(self):
         index = random.randint(0, self.length-1)
@@ -39,3 +40,29 @@ class Test:
         return str(self.storage) +"   "+str(self.map)
 
 
+a = Test()
+a.insert(2)#0
+a.insert(2)#1
+a.insert(4)#2
+a.insert(1)#3
+a.insert(3)#4
+a.insert(10)#5
+a.insert(2)#6
+
+
+print(a)
+#
+a.remove(3)
+#
+print(a)
+#
+# a.insert(4)
+# print(a)
+# a.remove(3)
+# a.insert(10)
+# print(a)
+# a.remove(10)
+# print(a)
+# a.remove(1)
+# print(a)
+print(a.random())
