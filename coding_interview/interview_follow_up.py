@@ -16,20 +16,16 @@ class TestRepeat:
 
 
     def remove(self, val):
-
         if val not in self.map:
             return
-
         #remove last element from storage and map
         last_element = self.storage.pop()
         last_element_index = self.map[last_element].pop()
         self.length -=1
-
         if val == last_element:
             if not self.map[val]:
                 del self.map[val]
             return
-
         #get the index of the element_deleted and remove it from map
         old_index = self.map[val].pop()
         #change the storage at index from the elemented deleted to the previos last element
