@@ -3,15 +3,11 @@ import random
 class TestRepeat:
 
     def __init__(self):
-        # self.storage = [] time consuming
         self.storage = []
         self.map = {}
         self.length = 0
 
     def insert(self, val):
-        # if val in self.storage:
-        #     print("Duplicate")
-        #     return 0
         self.storage.append(val)
         if val not in self.map:
             self.map[val] = []
