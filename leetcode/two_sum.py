@@ -1,27 +1,13 @@
-#https://leetcode.com/problems/two-sum/
-nums = [3,3]
+
+def twoSum(nums: list[int], target: int) -> list[int]:
+    for i in range(0,len(nums)):
+        remainder = target - nums[i]
+        for j in range(i+1, len(nums)):
+            if remainder == nums[j]:
+                return [i, j]
+
+    return []
+
+nums =[3,2,4]
 target = 6
-
-# print(nums[0:0]+nums[1:len(nums)])
-
-def dict_index(arr:list)->dict:
-    indexes = {}
-    for i, j in enumerate(arr):
-        i
-        indexes[j] = i
-    return indexes
-
-# print(dict_index(nums))
-
-def twoSum(nums:list, target:int)->list:
-    indexes = dict_index(nums)
-    print(indexes)
-    for i, j in enumerate(nums):
-        remainder = abs(target-j)
-        if remainder in indexes and remainder != j:
-            return [i, indexes[remainder]]
-
-print(twoSum(nums, target))
-
-
 
