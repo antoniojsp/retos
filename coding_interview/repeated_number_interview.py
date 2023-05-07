@@ -69,11 +69,10 @@ def find_repeated_bitarray(arr:list)->int:
 
 
 def find_repeated_mark(arr:list)->int:
-    '''
+    """
     number of elements (max n+1)
     range 1 to n
-    '''
-
+    """
     for i in range(0, len(arr)):
         current = abs(arr[i])-1
 
@@ -82,6 +81,6 @@ def find_repeated_mark(arr:list)->int:
         arr[current] = -arr[current]
     return -1
 
-print(find_repeated_mark([2,6,4,3,6,5,1]))
+print(find_repeated_mark([2,1,3,5,1]))
 
 
