@@ -3,13 +3,21 @@ def twoSum_brute_force(nums: list[int], target: int) -> list[int]:
     '''
     0(n^2) time complexity
     '''
+    current = None
     for i in range(0,len(nums)):
-        remainder = target - nums[i]
+        if current
         for j in range(i+1, len(nums)):
-            if remainder == nums[j]:
+            if target - nums[i] == nums[j]:
                 return [i, j]
 
     return []
+
+nums =[-2,7,11,15]
+target = 9
+
+print(twoSum_brute_force(nums, target))
+
+
 
 
 def twoSum(nums: list[int], target: int) -> list[int]:
@@ -23,9 +31,9 @@ def twoSum(nums: list[int], target: int) -> list[int]:
         else:
             return [i, dict[remainder]]
 
-    return -1
+    return []
 
-nums =[-2,7,11,15]
-target = 9
-
-print(twoSum(nums, target))
+# nums =[-2,7,11,15]
+# target = 9
+#
+# print(twoSum(nums, target))
