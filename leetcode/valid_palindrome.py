@@ -27,4 +27,4 @@ def isPalindrome2(s: str) -> bool:
     result = "".join(response)
     return result == result[::-1]
 
-print(isPalindrome2("A man, a plan, a canal -- Panama"))
+print(isPalindrome1("A man, a plan, a canal -- Panama"))
