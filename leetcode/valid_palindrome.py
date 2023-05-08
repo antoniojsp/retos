@@ -10,6 +10,3 @@ def isPalindrome( s: str) -> bool:
     return str_list == list(reversed(str_list))
 
 
-
-
-s = " "
