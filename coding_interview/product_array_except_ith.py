@@ -35,7 +35,22 @@ def product_array_zeros(arr:list)->list:
     return result
 
 
-array = [1,2,4,5]
-print(product_array_zeros(array))
+def multiply(arr:list)->int:
+    result = 1
+    for i in arr:
+        if i != 0:
+            result *=i
+
+    return result
+
+def locate_zeros(arr:list)->int:
+    result = []
+    for i, j in enumerate(arr):
+        if j == 0:
+            return i
+
+    return -1
+
+print(locate_zeros([1,2,3,4,5,0]))
 
 
