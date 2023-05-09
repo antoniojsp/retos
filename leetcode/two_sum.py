@@ -20,27 +20,27 @@ def twoSum_binary_search(nums: list[int], target: int) -> list[int]:
     binary search
     '''
     last_seen = None
-    for i in range(0, len(nums)):
+    for i in range(0,len(nums)):
         remainder = target - nums[i]
-        start = i + 1
-        end = len(nums) - 1
+
         if last_seen is None or remainder != last_seen:
             last_seen = remainder
+            start = i+1
+            end = len(nums) - 1
             while start <= end:
-                mid = (start + (start)) // 2
+                mid = (start + end)//2
                 if remainder == nums[mid]:
-                    print(remainder, nums[mid])
-                    return [i + 1, mid + 1]
+                    return [i+1, mid+1]
 
                 if remainder < nums[mid]:
-                    end = mid - 1
+                    end = mid -1
                 elif remainder > nums[mid]:
                     start = mid + 1
     return []
 
 
-nums =[-1,0]
-target = -1
+nums =[2,7,11,15]
+target = 9
 
 print(twoSum_binary_search(nums, target))
 
