@@ -3,19 +3,46 @@ def twoSum_brute_force(nums: list[int], target: int) -> list[int]:
     '''
     0(n^2) time complexity
     '''
-    current = None
+    last_seen = None
     for i in range(0,len(nums)):
-        if current
-        for j in range(i+1, len(nums)):
-            if target - nums[i] == nums[j]:
-                return [i, j]
+        current = nums[i]
+        if last_seen is None or current != last_seen:
+            last_seen = current
+            for j in range(i+1, len(nums)):
+                if target - nums[i] == nums[j]:
+                    return [i, j]
 
     return []
 
-nums =[-2,7,11,15]
-target = 9
 
-print(twoSum_brute_force(nums, target))
+def twoSum_binary_search(nums: list[int], target: int) -> list[int]:
+    '''
+    binary search
+    '''
+    last_seen = None
+    for i in range(0, len(nums)):
+        remainder = target - nums[i]
+        start = i + 1
+        end = len(nums) - 1
+        if last_seen is None or remainder != last_seen:
+            last_seen = remainder
+            while start <= end:
+                mid = (start + (start)) // 2
+                if remainder == nums[mid]:
+                    print(remainder, nums[mid])
+                    return [i + 1, mid + 1]
+
+                if remainder < nums[mid]:
+                    end = mid - 1
+                elif remainder > nums[mid]:
+                    start = mid + 1
+    return []
+
+
+nums =[-1,0]
+target = -1
+
+print(twoSum_binary_search(nums, target))
 
 
 
