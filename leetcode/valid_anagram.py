@@ -9,7 +9,7 @@ class Solution:
     #         if i not in results:
     #             results[i] = 0
     #         results[i]+= 1
-
+    # gffgddfgdf
     #     return results
 
     def isAnagram(self, s: str, t: str) -> bool:
