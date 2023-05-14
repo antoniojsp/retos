@@ -27,6 +27,9 @@ class MinStack:
     def __init__(self):
         self.state = Lista()
 
+    def __repr__(self):
+        return str(self.state)
+
     def push(self, val):
         if self.state:
             current_minimum = min(self.getMin(), val)
@@ -49,10 +52,12 @@ a = MinStack()
 a.push(2147483646)
 a.push(2147483646)
 a.push(2147483646)
+print(a)
+
 a.top()
 a.pop()
 a.getMin()
 a.pop()
 a.getMin()
-print(a.__dict__)
+print(a)
 a.pop()
