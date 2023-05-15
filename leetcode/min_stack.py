@@ -61,3 +61,4 @@ a.pop()
 a.getMin()
 print(a)
 a.pop()
+
