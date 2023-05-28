@@ -11,7 +11,7 @@ def binary_search(arr:list, value:int) -> int:
 
     while start <= end:
         mid = (start+end)//2# overflow bug in some languages
-        mid = start+ (end - start)//2
+        # mid = start+ (end -start)//2
         if arr[mid] == value:
             return mid
 
