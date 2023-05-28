@@ -1,17 +1,28 @@
-class Solution:
-    def search(self, arr: List[int], value: int) -> int:
-        start = 0
-        end = len(arr)-1
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
+var search = function(nums, target) {
 
-        while start <= end:
-            mid = (end+start)//2
+    var start = 0;
+    var end = nums.length-1;
 
-            if arr[mid] == value:
-                return mid
+    while (start <= end){
 
-            if arr[mid] > value:
-                end = mid - 1
-            else:
-                start =  mid + 1
+        const mid = Math.floor( (start + end)/2 );
 
-        return -1
+        if (nums[mid] == target){
+            return mid;
+        }
+
+        if (nums[mid] > target){
+            end = mid - 1;
+        }else{
+            start = mid + 1;
+        }
+    };
+
+    return -1;
+
+};

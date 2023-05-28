@@ -70,20 +70,20 @@ class BST:
 
         return helper(root)
 
-    # def search(self, looking_for):
+    def search_iterative(self, looking_for):
 
-    #     root = self.head
-    #
-    #     while root:
-    #         if root.data == looking_for:
-    #             return True
-    #
-    #         if root.data <= looking_for:
-    #             root = root.right
-    #         else:
-    #             root = root.left
-    #
-    #     return False
+        root = self.head
+
+        while root:
+            if root.data == looking_for:
+                return True
+
+            if root.data <= looking_for:
+                root = root.right
+            else:
+                root = root.left
+
+        return False
 
     def search(self, looking_for):
         root = self.head
@@ -101,6 +101,17 @@ class BST:
 
         return helper(root, looking_for)
 
+    def invert(self):
+        root = self.head
+
+        def helper(node):
+            if node:
+                helper(node.left)
+                helper(node.right)
+                node.left, node.right = node.right, node.left
+
+        helper(root)
+
 
 
 
@@ -117,13 +128,18 @@ a.insert(5)
 a.insert(9)
 a.insert(14)
 a.insert(1)
+# a.print()
+print()
+# a.invert()
+print()
+a.print()
 
 
 
 
 # a.print()
 # print(a.maximum())
-print(a.height())
-# print(a.search(9000))
+# print(a.height())
+print(a.search(9))
 
 
