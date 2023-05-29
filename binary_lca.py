@@ -49,6 +49,7 @@ class Node:
 
 
 def lca(root, v1, v2):
+    #lowest common ancestor
   #Enter your code here
     if root is None:
         return None
@@ -60,3 +61,7 @@ def lca(root, v1, v2):
     return root
 
 tree = BinarySearchTree()
+
+
+for i in range(10):
+    print(i, sep ="\n")

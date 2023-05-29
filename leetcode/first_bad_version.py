@@ -1,8 +1,13 @@
-import collections
+class Solution:
+    def firstBadVersion(self, n: int) -> int:
+        start = 1
+        end = n
+        while start < end:
+            middle = start + (end - start) // 2
 
-first_bad = 45
-end = 100
-arr = [True if i >= first_bad else False for i in range(0,end)]
-print(arr)
+            if isBadVersion(middle):
+                end = middle
+            else:
+                start = middle + 1
 
-print(collections.Counter(arr))
+        return start
