@@ -4,31 +4,27 @@ roman_numeral = {
     "X":10,
     "L":50,
     "C":100,
+    "D":500,
     "M":1000
 }
 
-val = "III"
-
-
 def romanToInt(s: str) -> int:
-    convert = lambda x: roman_numeral[x]
-    values = list(map(convert, s))
-    answer = 0
-    current = None
-    prev = None
+    values = list(map(lambda x: roman_numeral[x], s))
+    starting_value = values.pop()
+    answer = starting_value
+    prev = starting_value
     while values:
         current = values.pop()
-        if prev is None:
-            prev = current
-            answer +=current
-            continue
-
-        if prev == current:
-
-
-
-
+        if prev == current or answer < current:
+            answer += current
+        else:
+            answer -= current
+        prev = current
 
     return answer
 
+val = "DCXXI"
+
+
+print(romanToInt(val))
 print(romanToInt("III"))
