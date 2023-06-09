@@ -1,6 +1,5 @@
 # https://leetcode.com/problems/move-zeroes/
 
-
 def moveZeroes(nums):
     i = 0
     while i < len(nums):
@@ -16,12 +15,6 @@ def moveZeroes(nums):
         i+=1
         print(*nums)
     return nums
-
-
-
-
-
-
 
 nums = [0,1,0]
 #[0,1,0]
