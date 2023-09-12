@@ -1,23 +1,15 @@
 nums = [0,0,0,1,1,1,2,2,3,3,4]
-
-
+length = len(nums)-1
+temp = None
 i = 0
-prev = None
-while i < len(nums):
-    if prev is None:
-        prev = nums[i]
-        i += 1
-    elif prev == nums[i]:
-        k = i
-        print(nums)
-        while k <len(nums)-1:
-            nums[k] = nums[k+1]
-            k += 1
-        prev = nums[i]
-        i += 1
-
+while i < length:
+    if temp is None or temp != nums[i]:
+        temp = nums[i]
+        i+=1
     else:
-        prev = nums[i]
-        i += 1
+        del nums[i]
+        i -= 1
+        length -=1
 
 print(nums)
+
