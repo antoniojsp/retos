@@ -16,4 +16,33 @@ def longestCommonPrefix(strs):
 
     return result
 
-print(longestCommonPrefix(strs))
+# print(longestCommonPrefix(strs))
+
+def isAllEqual(t:tuple)->bool:
+    return len(set(t)) <= 1
+
+def longestCommonPrefix1(strs:str)->str:
+    result = ""
+    for t in zip(*strs):
+        if isAllEqual(t):
+            result += t[0]
+        else:
+            break
+    return result
+
+print(longestCommonPrefix1(strs))
+
+
+# class Solution:
+#
+#     def isAllEqual(self, t: tuple) -> bool:
+#         return len(set(t)) <= 1
+#
+#     def longestCommonPrefix(self, strs: List[str]) -> str:
+#         result = ""
+#         for t in zip(*strs):
+#             if self.isAllEqual(t):
+#                 result += t[0]
+#             else:
+#                 break
+#         return result
