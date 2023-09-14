@@ -46,3 +46,6 @@ print(longestCommonPrefix1(strs))
 #             else:
 #                 break
 #         return result
+an = [1,2,3,4,5]
+a, b , *c = an
+print(c)
