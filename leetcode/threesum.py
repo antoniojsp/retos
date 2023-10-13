@@ -40,14 +40,15 @@ def threeSum(nums):
     nums.sort()
     result = []
     for i, j in enumerate(nums):
-        needed = j
-        print(needed)
+        needed = -j
         if partial_sum := twoSum(nums[i + 1:], needed):
             if partial_sum:
-                print(partial_sum)
+                # print("partial", j, partial_sum)
                 for k in partial_sum:
-                    temp = [k]
+
+                    temp = [j]
                     temp += k
+                    # print(temp)
                     unique = str(temp)
                     if unique not in seen:
                         result.append(temp)
@@ -57,6 +58,6 @@ def threeSum(nums):
 
 
 # print(twoSum([0, 1, 1, 2], 2))
-# print(threeSum([-1,0,1,2,-1,-4]))
+print(threeSum([-1,0,1,2,-1,-4]))
 
 #edge case all zeros 0
