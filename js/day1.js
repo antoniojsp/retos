@@ -6,3 +6,5 @@ var createHelloWorld = function() {
         console.log("Hello World");
     }
 };
+
+console.log("Hola");

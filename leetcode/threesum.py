@@ -1,58 +1,57 @@
 # https://leetcode.com/problems/3sum/
 
 
-def dict_values(arr:list)->dict:
-    result =  {}
-    for i, j in enumerate(arr):
-        if j not in result:
-            result[j] = set()
-        result[j].add(i)
+arr = [0,0,0,0]
 
-    return result
+tar = 3
 
 
-nums = [-1,0,1,2,-1,-4]
-# nums = [0,0,0]
+def  twoSum(numbers, target):
 
-#di = {0:{0,1,2}}
-
-def threesum(arr:list)->list:
-    arr.sort()
-    print(arr)
-    data = dict_values(arr)
-    print(data)
+    if not numbers:
+        return []
+    left = 0
+    right = len(numbers) - 1
     result = []
-    prev = None
-    for i in range(len(arr)):
-        if i > 0 and arr[i] == arr[i-1]:
-            continue
-        target = -arr[i]
-
-        for j in range(i+1, len(arr)):
-            if prev is None or prev != arr[j]:
-                # prev = arr[j]
-                remainder = -(arr[i]+arr[j])
-                # print(arr[j+1:len(arr)], remainder)
-
-                temp = dict_values(arr[j+1:len(arr)])
-
-                if remainder in temp:
-                    # if len(data[remainder]-l)>0:
-                    temp = [arr[i], arr[j],remainder]
-                    # temp.sort()
-                    if temp not in result:
-                        result.append(temp)
-
-
-                # if remainder in data:
-                #     l = {i, j}
-
-                    # if len(data[remainder]-l)>0:
-                    #     temp = [arr[i], arr[j],remainder]
-                    #     temp.sort()
-                    #     if temp not in result:
-                    #         result.append(temp)
+    while left < right:
+        current_sum = numbers[left] + numbers[right]
+        if current_sum == target:
+            result.append([numbers[left], numbers[right]])
+            right -= 1
+            left += 1
+        elif current_sum > target:
+            right -= 1
+        else:
+            left += 1
 
     return result
 
-print(threesum(nums))
+
+def threeSum(nums):
+    '''
+    Find three elements that add to 0
+    '''
+    seen = {}
+    nums.sort()
+    result = []
+    for i, j in enumerate(nums):
+        needed = j
+        print(needed)
+        if partial_sum := twoSum(nums[i + 1:], needed):
+            if partial_sum:
+                print(partial_sum)
+                for k in partial_sum:
+                    temp = [k]
+                    temp += k
+                    unique = str(temp)
+                    if unique not in seen:
+                        result.append(temp)
+                        seen[unique] = True
+
+    return result
+
+
+# print(twoSum([0, 1, 1, 2], 2))
+print(threeSum([-1,0,1,2,-1,-4]))
+
+#edge case all zeros 0
