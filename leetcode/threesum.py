@@ -7,9 +7,14 @@ tar = 3
 
 
 def  twoSum(numbers, target):
-
-    if not numbers:
+    '''
+    Original twoSum function modified to return all the possible combinations that add up to the target.
+    '''
+    if len(numbers) <= 1:  # If the array has less than 2 elements, then it's not possible to find to elements
+        # that add to "target".
         return []
+
+    numbers.sort()
     left = 0
     right = len(numbers) - 1
     result = []
@@ -52,6 +57,6 @@ def threeSum(nums):
 
 
 # print(twoSum([0, 1, 1, 2], 2))
-print(threeSum([-1,0,1,2,-1,-4]))
+# print(threeSum([-1,0,1,2,-1,-4]))
 
 #edge case all zeros 0
