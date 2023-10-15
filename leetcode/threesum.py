@@ -54,6 +54,7 @@ def threeSum(nums):
         return []
 
     seen = {}
+    set_s = set()
     nums.sort()
     result = []
     for i, j in enumerate(nums):
@@ -62,13 +63,27 @@ def threeSum(nums):
             for k in partial_sum:
                 temp = [j]
                 temp += k
-                unique = str(temp)
-                if unique not in seen:
-                    result.append(temp)
-                    seen[unique] = True
+                set_s.add(tuple(temp))
+                # unique = str(temp)
+                # if unique not in seen:
+                #     result.append(temp)
+                #     seen[unique] = True
 
-    return result
+    return list(set_s)
 
 
 print(threeSum([-1,0,1,2,-1,-4]))
 
+
+# def threeSum(self, nums: List[int]) -> List[List[int]]:
+#     nums.sort()
+#     result = []
+#     result = set()
+#     for i, j in enumerate(nums):
+#         needed = -j
+#         if partial_sum := self.twoSum(nums[i + 1:], needed):
+#             if partial_sum:
+#                 for k in partial_sum:
+#                     result.add(tuple([j] + k))
+#
+#     return result
