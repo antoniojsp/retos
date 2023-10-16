@@ -1,5 +1,6 @@
 //https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/where-do-i-belong
 
+
 function getIndexToIns(arr, num) {
   arr.sort((a,b)=>a-b)
   let i = 0;

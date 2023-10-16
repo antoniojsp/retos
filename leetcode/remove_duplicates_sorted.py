@@ -1,38 +1,23 @@
 '''
 Change array in situ and return the number of unique elements
 
-First approach, use swap elements and keep a counter
 '''
-test = [0,0,0,0,1,1,1,2,2,3,3,4]
 #from 4 to 1
-def move_left(arr:list, from_index, to_index):
-    move = from_index - to_index
-    for i in range(from_index, len(arr)):
-        arr[i-move] = arr[i]
-    return arr
-
-print(test)
-print(move_left(test, 4, 1))
-print(move_left(test, 4, 2))
-print(move_left(test, 4, 3))
-print(move_left(test, 5, 4))
 
 
+def remove_duplicate(arr:list)->int:
 
-def remove_duplicates(nums:list):
+    i = 0
+    j = 1
 
-    count = 0
-    i = 1
-    while i + count != len(nums):
-
-        if nums[i-1] == nums[i]:
-            move_left(nums, i)
-            count+=1
-        else:
+    while j < len(arr):
+        if arr[i] != arr[j]:
             i+=1
+            arr[i] = arr[j]
+        j+=1
 
-    return len(nums) - count
+    return i + 1
 
+test = [0,0,1,1,1,2,2,3,3,4]
 
-# print("final", remove_duplicates(test))
-# print(test)
+print(remove_duplicate(test))
