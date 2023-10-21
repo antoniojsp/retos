@@ -13,7 +13,7 @@ def cost_climbing_stairs(arr):
 
 
 
-    return helper(arr, 0)
+    return helper(arr, 273)
 
 
 
