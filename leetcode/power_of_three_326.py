@@ -14,3 +14,4 @@ class Solution:
         return n == 1
 
 
+Solution().isPowerOfThree(45)
