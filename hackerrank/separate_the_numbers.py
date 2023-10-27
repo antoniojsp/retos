@@ -1,21 +1,26 @@
-
 def separateNumbers(s):
     # Write your code here
-    for i in range(len(s)//2):
-        val = int(s[:i+1])
-        repeat = len(s)//(i+1)
-        temp = []
-        for i in range(repeat):
-            temp.append(str(val))
-            val+=1
-            if len(temp) > len(s):
-                break
-        candidate = "".join(temp)
+    result = ""
+    for i in range(len(s) // 2):
+        val = int(s[:i + 1])
+        repeat = len(s) // (i + 1)
+        candidate = ""
+        start = ""
+        for j in range(repeat):
+            if j == 0:
+                start = str(val)
+            candidate +=str(val)
+            val += 1
+
         if candidate.startswith(s):
-            print(f"YES {temp[0]}")
-            return
+            result = f"YES {start}"
+            break
 
-    print("NO")
+    if result:
+        print(result)
+    else:
+        print("NO")
 
-test = "1234"
+
+test = "101103"
 separateNumbers(test)
