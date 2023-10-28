@@ -2,17 +2,17 @@
 
 def weightedUniformStrings(s, queries):
     # Write your code here
-    current = None
-    weight = set()
-    count = 0
-    for i in s:
-        if not current or current != i:
-            current = i
-            count = 0
-        count += ord(i) - 96
-        weight.add(count)
+    last_char_seen = None
+    weights_set = set()
+    current_value = 0
+    for current_char in s:
+        if not last_char_seen or last_char_seen != current_char:
+            last_char_seen = current_char
+            current_value = 0
+        current_value += ord(current_char) - 96
+        weights_set.add(current_value)
 
-    return ["Yes" if i in weight else "No" for i in queries]
+    return ["Yes" if i in weights_set else "No" for i in queries]
 
 
 
