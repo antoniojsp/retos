@@ -4,20 +4,17 @@ from typing import List
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
 
-
-        i = 0
-        j = 2
-        max_profit = prices[0] - prices[1]
+        j = 1
+        print(prices)
+        max_profit = 0
+        buy = 0  # look for smaller
+        sell = 1  # look for bigger
         while j < len(prices):
-            left = prices[i]
-            right = prices[j]
-            if left - right > max_profit:
-                max_profit = left - right
-                j+=1
-            if left - right < max_profit:
-                i+=1
+            if
 
-        print(max_profit)
+
+
+
 
 
         # max_profit = 0
