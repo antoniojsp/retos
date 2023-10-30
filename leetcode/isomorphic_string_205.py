@@ -12,18 +12,32 @@ class Solution:
 
     def isIsomorphic(self, s: str, t: str) -> bool:
 
-        if len(s) != len(t):
-            return False
-        print(list(zip(s, t)))
-        print(set(zip(s, t)))
-        s_index = self.dict_index(s)
-        t_index = self.dict_index(t)
-
-        for i, j in zip(s,t):
-            if s_index[i] != t_index[j]:
+        seen = {}
+        for i,j in zip(s,t):
+            if i not in seen:
+                seen[i] = j
+            elif i in seen and seen[i] != j:
                 return False
 
         return True
+
+
+# class Solution:
+#     def isIsomorphic(self, s: str, t: str) -> bool:
+#
+#         seen = {}
+#         checked = set()
+#         for i, j in zip(s, t):
+#             if i not in seen:
+#                 seen[i] = j
+#                 if j in checked:
+#                     return False
+#                 checked.add(j)
+#
+#             elif seen[i] != j:
+#                 return False
+#
+#         return True
 
 
 

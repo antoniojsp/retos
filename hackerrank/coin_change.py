@@ -1,8 +1,8 @@
 def getWays(n, c):
     # Write your code here
-    def helper(val, arr):
+    def helper(target, coins):
 
-        if val == 0:
+        if target == 0:
             return 1
 
         if val > 0:
