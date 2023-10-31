@@ -1,20 +1,22 @@
 class Solution:
     def reverse(self, x: int) -> int:
+
         if x == 0:
             return 0
+
         negative = False
         if x < 0:
             x *= -1
             negative = True
 
         temp = x
-        lis = []
+        reversed_number = []
         while temp:
             n = temp % 10
             temp //= 10
-            lis.append(str(n))
+            reversed_number.append(str(n))
 
-        result = int("".join(lis))
+        result = int("".join(reversed_number))
 
         limit = (2**31)-1
 
@@ -26,4 +28,4 @@ class Solution:
 
 
 
-print(Solution().reverse(123))
+print(Solution().reverse(-123))
