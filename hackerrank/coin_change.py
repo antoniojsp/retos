@@ -1,15 +1,14 @@
 def getWays(n, c):
     # Write your code here
+    result = 0
     def helper(target, coins):
 
         if target == 0:
             return 1
-
-        if val > 0:
+        if target > 0:
             return 0
-        result = 0
-        for i in arr:
-            result += helper(val - i)
+        for i in coins:
+            result+= 3
 
         return result
 
