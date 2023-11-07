@@ -1,23 +1,24 @@
 def getWays(n, c):
-    # Write your code here
-    result = 0
-    def helper(target, coins):
+    def helper(target, coins, memo={}):
 
         if target == 0:
             return 1
-        if target > 0:
+        if target < 0:
             return 0
-        for i in coins:
-            result+= 3
 
-        return result
+        if (target, len(coins)) in memo:
+            return memo[(target, len(coins))]
+
+        total = 0
+        for i in range(len(coins)):
+            coin = coins[i]
+            if coin > target:
+                continue
+            else:
+                total += helper(target - coins[i], coins[i:], memo)
+
+        memo[(target, len(coins))] = total
+
+        return memo[(target, len(coins))]
 
     return helper(n, c)
-
-
-print(getWays(3,[8,3,1,2]))
-
-
-
-
-
