@@ -22,3 +22,6 @@ def getWays(n, c):
         return memo[(target, len(coins))]
 
     return helper(n, c)
+
+
+print(getWays(4, [1, 2, 3]))
