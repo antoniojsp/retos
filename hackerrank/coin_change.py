@@ -15,7 +15,7 @@ def getWays(n, c):
             if coin > target:
                 continue
             else:
-                total += helper(target - coins[i], coins[i:], memo)
+                total += helper(target - coin, coins[i:], memo)
 
         memo[(target, len(coins))] = total
 
