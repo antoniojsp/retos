@@ -1,24 +1,35 @@
 from math import floor
-test = 100
+
+class Solution:
+    @staticmethod
+    def convert_base(num: int, base) -> str:
+        result = ""
+        while 1 <= num:
+            reminder = num % base
+            num /= base
+            result += str(floor(reminder))
+
+        return result[::-1]
+
+    @staticmethod
+    def check_palindrome(num: str) -> bool:
+
+        for i in range(0, len(num) // 2):
+            if num[i] != num[len(num) - i - 1]:
+                return False
+        return True
 
 
-def convert_base(num:int, base) -> str:
-    result = ""
-    while 1 < num:
-        reminder = num % base
-        num /= base
-        result += str(floor(reminder))
+    def isStrictlyPalindromic(self, n: int) -> bool:
+        for i in range(2, n-1):
+            if self.check_palindrome(str(i)):
+                return False
 
-    return result[::-1]
-
-def check_palindrome(num:str) -> bool:
-
-    for i in range(0, len(num)//2):
-        if num[i] != num[len(num)-i-1]:
-            return False
-    return True
-
-print(check_palindrome("1000"))
+        return True
 
 
-# print(convert_base(100,3))
+
+
+print(Solution().isStrictlyPalindromic(4))
+
+# print(Solution().convert_base(9, 3))
