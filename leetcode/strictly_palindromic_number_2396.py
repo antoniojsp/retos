@@ -1,3 +1,6 @@
+from math import floor
+
+
 class Solution:
     @staticmethod
     def convert_base(num: int, base) -> str:
