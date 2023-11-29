@@ -15,7 +15,7 @@ class Stack{
     }
 
     isEmpty(){
-        return this.arr.length > 0;
+        return this.arr.length == 0;
     }
 
     print(){
@@ -26,10 +26,21 @@ class Stack{
 
 function isValid(s){
     store = new Stack()
+    var map = {"[":"]", "{":"}", "(":")"}
     for (i of s){
-
+        // console.log(store.print())
+        if (i in map){
+            store.push(i)
+        }else{
+            var last = store.pop()
+            if(map[last] != i){
+                return false
+            }
+        }
     };
+    return store.isEmpty()
 
 };
 // {[{}]}
-isValid("antonio")
+//{[](){()}}
+console.log(isValid("{[{}}]}"))
