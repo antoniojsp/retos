@@ -7,7 +7,8 @@ class Solution:
         i = 0
         j = 1
         maxi = 0
-        while len(prices) < j:
+        while j < len(prices):
+            buy =
 
 
 
