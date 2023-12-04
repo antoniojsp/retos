@@ -3,6 +3,9 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+from typing import Optional
+
+
 class Solution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
@@ -17,4 +20,4 @@ class Solution:
                 break
             fast = fast.next.next
 
-        return slowa
+        return slow
