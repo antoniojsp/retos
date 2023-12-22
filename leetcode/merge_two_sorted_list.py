@@ -1,53 +1,38 @@
-class Node:
+# https://leetcode.com/problems/merge-two-sorted-lists/description/
 
-    def __init__(self, val):
-        self.val = val
-        self.next = None
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
 
+        if not list1:
+            return list2
+        if not list2:
+            return list1
 
-class LinkedList:
+        result = ListNode(-1)
+        res = result
+        temp1 = list1
+        temp2 = list2
 
-    def __init__(self):
-        self.head = None
+        while temp1 and temp2:
+            if temp1.val <= temp2.val:
+                min_val = temp1.val
+                temp1 = temp1.next
+            else:
+                min_val = temp2.val
+                temp2 = temp2.next
 
-    def insert(self, val):
-        new_node = Node(val)
-        if self.head is None:
-            self.head = new_node
-        else:
-            temp =  self.head
-            while temp.next:
-                temp = temp.next
-            temp.next = new_node
+            result.next = ListNode(min_val)
+            result = result.next
 
-    def insert_list(self, arr:list):
+        if temp1:
+            result.next = temp1
+        if temp2:
+            result.next = temp2
 
-        if self.head is None:
-            self
+        return res.next
 
-    def print(self):
-        temp = self.head
-        if not temp:
-            print("Empty")
-            return
-
-        while temp:
-            print(temp.val, end="")
-            temp = temp.next
-
-
-
-
-a = [1,5,9,12]
-b = [3,7,11,18]
-
-ll_a = LinkedList()
-lla_b = LinkedList()
-
-pointer1, pointer2 = 0, 0
-
-a = LinkedList()
-for i in a:
-    a.insert(i)
-
-a.print()

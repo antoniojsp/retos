@@ -8,7 +8,7 @@ i.e
 [1,3,2,1] good
 [5,2,1] bad
 """
-
+x
 
 def stockmax(prices):
     max_price = prices[-1]
