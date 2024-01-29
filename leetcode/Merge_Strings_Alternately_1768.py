@@ -1,11 +1,9 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-
         """
         Not checking if the strings are empty since the problem's constraints
         specify that they are at least size 1.
         """
-
         i = 0
         j = 0
         result = ''
