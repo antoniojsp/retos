@@ -10,3 +10,7 @@ class Solution:
                 count+=1
 
         return count
+
+a = "a, a, a, a, b,b,b,c, c"
+
+print(a.split(","))

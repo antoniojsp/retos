@@ -18,6 +18,8 @@ class Solution:
             result += self.dict_morse[i]
         return result
 
+
+
     # translate all words in list and add to set. all items in set are unique.
     def uniqueMorseRepresentations(self, words: List[str]) -> int:
         trans_set = set()
