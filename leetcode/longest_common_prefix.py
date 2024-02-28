@@ -49,3 +49,22 @@ print(longestCommonPrefix1(strs))
 an = [1,2,3,4,5]
 a, b , *c = an
 print(c)
+
+class Solution:
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+        min_len = min([len(i) for i in strs])
+        result = []
+        i = 0
+        while i < min_len:
+            temp = set()
+            current = ""
+            for letter in strs:
+                if letter[i] not in temp:
+                    temp.add(letter[i])
+                current = letter[i]
+            if len(temp) > 1:
+                break
+            i+=1
+
+            result.append(current)
+        return "".join(result)

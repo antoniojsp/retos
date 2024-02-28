@@ -1,3 +1,43 @@
+from typing import List
+
+strs = ["s","saa"]
+
+class Solution:
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+        min_len = min([len(i) for i in strs])
+        result = []
+        i = 0
+        while i < min_len:
+            temp = set()
+            current = ""
+            for letter in strs:
+                if letter[i] not in temp:
+                    temp.add(letter[i])
+                current = letter[i]
+            if len(temp) > 1:
+                break
+            i+=1
+
+            result.append(current)
+        return "".join(result)
+
+print(Solution().longestCommonPrefix(strs))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class TrieNode:
     def __init__(self):
         self.children = [None] * 26
@@ -58,13 +98,13 @@ class Trie:
         return result
 
 
-class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
-        trie_data_structure = Trie()
-        for i in strs:
-            if len(i) == 0:
-                return ""
-            trie_data_structure.insert(i)
-
-        return trie_data_structure.longest_common_prefix()
+# class Solution:
+#     def longestCommonPrefix(self, strs: List[str]) -> str:
+#         trie_data_structure = Trie()
+#         for i in strs:
+#             if len(i) == 0:
+#                 return ""
+#             trie_data_structure.insert(i)
+#
+#         return trie_data_structure.longest_common_prefix()
 
