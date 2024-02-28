@@ -22,3 +22,26 @@ def swap_without_temp(arr, a, b):
     return arr
 
 print(swap_without_temp(lista,5,6))
+
+
+
+a = 5
+b = 8
+
+a = a + b # 13
+b = a - b # 5
+a = a - b
+print(a, b)
+
+
+
+
+
+
+
+
+
+
+
+
+
