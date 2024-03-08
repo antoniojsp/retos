@@ -6,8 +6,7 @@ from typing import List
 class Solution:
 
     def array_product(self, arr:list) -> int:
-        result
-        for i in arr:
+        ...
 
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         total = self.array_product(nums)
