@@ -5,16 +5,16 @@ from typing import List
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
 
-        mex_sub = nums[0]
+        maz_sub = nums[0]
         current = 0
 
         for i in nums:
             if current < 0:
                 current = 0
             current+=i
-            mex_sub = max(mex_sub, current)
+            maz_sub = max(maz_sub, current)
 
-        return mex_sub
+        return maz_sub
 
 
 
