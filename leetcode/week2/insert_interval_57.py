@@ -11,7 +11,7 @@ class Solution:
             interval_end = intervals[i][1]
             if interval_start < start < interval_end:
                 print(start)
-            elif
+            pass
 
 
 
