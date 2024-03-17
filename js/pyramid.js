@@ -1,0 +1,4 @@
+function pyramis(n){
+
+    
+}
