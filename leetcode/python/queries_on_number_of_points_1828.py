@@ -1,4 +1,8 @@
 #https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/description/
+import math
+from typing import List
+
+
 class Solution:
     def countPoints(self, points: List[List[int]], queries: List[List[int]]) -> List[int]:
         answer = []
@@ -16,7 +20,7 @@ class Solution:
 
                         sqrt( (x1-x2)**2 + (y1-y2)**2 ) 
                 """
-                distance = math.sqrt((x 1 -x2 )* *2 + (y 1 -y2 )* *2)
+                distance = math.sqrt((x1 -x2 )* *2 + (y1 -y2 )**2)
                 if distance <= r:
                     count += 1
             answer.append(count)
