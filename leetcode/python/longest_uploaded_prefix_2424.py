@@ -6,7 +6,7 @@ class LUPrefix:
         self.largest = 0
 
     def upload(self, video: int) -> None:
-        self.arr[vide o -1] = True
+        self.arr[video-1] = True
 
     def longest(self) -> int:
         print(self.arr)
@@ -15,7 +15,7 @@ class LUPrefix:
             if not self.arr[i]:
                 break
             else:
-                self.larges t+ =1
+                self.largest+=1
 
         return self.largest
 
