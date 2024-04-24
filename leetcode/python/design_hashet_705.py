@@ -6,18 +6,18 @@ class MyHashSet:
         self.arr = [[] for i in range(self.SIZE)]
 
     def add(self, key: int) -> None:
-        key_location = ke y %self.SIZE
+        key_location = key %self.SIZE
         if key not in self.arr[key_location]:
             self.arr[key_location].append(key)
 
 
     def remove(self, key: int) -> None:
-        key_location = ke y %self.SIZE
+        key_location = key %self.SIZE
         if key in self.arr[key_location]:
             self.arr[key_location].remove(key)
 
     def contains(self, key: int) -> bool:
-        key_location = ke y %self.SIZE
+        key_location = key %self.SIZE
         if key in self.arr[key_location]:
             return True
         return False
