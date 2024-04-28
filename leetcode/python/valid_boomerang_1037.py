@@ -1,4 +1,7 @@
 # https://leetcode.com/problems/valid-boomerang/description/
+from typing import List
+
+
 class Solution:
     def isBoomerang(self, points: List[List[int]]) -> bool:
 
@@ -11,7 +14,7 @@ class Solution:
             if (points[i] == points[ i +1]): # If two points are the same, then cannot be a boomerang
                 return False
 
-            curr_slope = float("inf") if x1 == x2  else (y 1 -y2 ) /(x 1 -x2)
+            curr_slope = float("inf") if x1 == x2  else (y1 -y2 ) /(x1 -x2)
 
             if first_slope == None: # setting up first slope
                 first_slope = curr_slope
