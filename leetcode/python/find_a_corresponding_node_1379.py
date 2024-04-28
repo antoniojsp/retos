@@ -1,4 +1,3 @@
-#https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -12,16 +11,28 @@ from idlelib.tree import TreeNode
 class Solution:
     def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
 
-        q = deque([(original, cloned)])
+        def helper(node_original: TreeNode, node_cloned: TreeNode, target):
+            if node_original is None:
+                return None
+            if node_original == target:
+                return node_cloned
 
-        while q:
-            temp = q.popleft()
-            if temp[0] == target:
-                return temp[1]
+            a = helper(node_original.left, node_cloned.left, target)
+            b = helper(node_original.right, node_cloned.right, target)
 
-            if temp[0].left:
-                q.append((temp[0].left, temp[1].left))
-            if temp[0].right:
-                q.append((temp[0].right, temp[1].right))
+            return a or b
+
+        return helper(original, cloned, target)
+
+        # q = deque([(original, cloned)])
+
+        # while q:
+        #     original_node, clone_node = q.popleft()
+        #     if original_node == target:
+        #         return clone_node
+        #     if original_node.left:
+        #         q.append((original_node.left, clone_node.left))
+        #     if original_node.right:
+        #         q.append((original_node.right, clone_node.right))
 
 
