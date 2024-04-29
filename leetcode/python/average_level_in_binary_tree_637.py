@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/average-of-levels-in-binary-tree/description/
 from collections import deque
+from typing import List, Optional
+
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -19,9 +21,9 @@ class Solution:
             values[level] = (values[level][0 ] +node.val, values[level][1 ] +1)
 
             if node.left:
-                Q.append((node.left, leve l +1))
+                Q.append((node.left, level +1))
             if node.right:
-                Q.append((node.right, leve l +1))
+                Q.append((node.right, level +1))
 
-        return [su m /times for sum, times in values.values()]
+        return [sum /times for sum, times in values.values()]
 
