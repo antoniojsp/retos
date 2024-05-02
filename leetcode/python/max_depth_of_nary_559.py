@@ -22,3 +22,25 @@ class Solution:
                 Q.append((i, level +1))
 
         return max_level
+
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val=None, children=None):
+        self.val = val
+        self.children = children
+"""
+
+
+class Solution:
+    def maxDepth(self, root: 'Node') -> int:
+        if root is None:
+            return 0
+
+        maxi = 0
+        for i in root.children:
+            maxi = max(self.maxDepth(i), maxi)
+
+        return 1 + maxi
+
