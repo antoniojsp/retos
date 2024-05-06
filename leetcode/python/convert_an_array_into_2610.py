@@ -14,8 +14,8 @@ class Solution:
             for i, j in seen.items():
                 if j > 0:
                     temp.append(i)
-                    lengt h- =1
-                    seen[i ]- =1
+                    length -=1
+                    seen[i] -=1
 
             result.append(temp)
 
