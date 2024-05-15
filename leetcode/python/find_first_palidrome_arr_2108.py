@@ -1,4 +1,7 @@
 # https://leetcode.com/problems/find-first-palindromic-string-in-the-array/description/
+from typing import List
+
+
 class Solution:
     @staticmethod
     def check_palindrome(word :str) -> bool:
