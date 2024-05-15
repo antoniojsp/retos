@@ -12,8 +12,8 @@ class Solution:
         while left < right:
             if word[left] != word[right]:
                 return False
-            left + =1
-            right - =1
+            left +=1
+            right -=1
 
         return True
 
