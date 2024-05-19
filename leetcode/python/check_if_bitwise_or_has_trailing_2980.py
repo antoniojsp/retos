@@ -1,4 +1,7 @@
 #  https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/description/
+from typing import List
+
+
 class Solution:
     def hasTrailingZeros(self, nums: List[int]) -> bool:
         '''
@@ -8,12 +11,13 @@ class Solution:
         times = 0
         i = 0
         while i < len(nums):
-            if nums[i ] % 2= =0:
-                time s+ =1
-            if times > =2:
-                return True i+=1
+            if nums[i] % 2==0:
+                times+=1
+            if times >=2:
+                return True
+            i+=1
 
-        r eturn False
+        return False
 
 
         # o(n) space
