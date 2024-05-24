@@ -18,4 +18,5 @@ def ranking_words(file_location:str)->dict:
 
 if __name__ == "__main__":
     print(ranking_words("text.txt"))
+    print(count_words("text.txt"))
 
