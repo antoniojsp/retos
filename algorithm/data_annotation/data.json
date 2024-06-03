@@ -1,0 +1,10 @@
+{
+  "stations": ["Station1", "Station2", "Station3", "Station4", "Station5"],
+  "distances": {
+    "Station1": {"Station2": 2, "Station3": 4},
+    "Station2": {"Station1": 2, "Station3": 1, "Station4": 7},
+    "Station3": {"Station1": 4, "Station2": 1, "Station4": 3},
+    "Station4": {"Station2": 7, "Station3": 3, "Station5": 1},
+    "Station5": {"Station4": 1}
+  }
+}
