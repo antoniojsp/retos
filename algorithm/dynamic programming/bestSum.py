@@ -45,7 +45,6 @@ def best_sum(target:int, nums:list, memo = None):
                 shortest = combination
 
     memo[target] = shortest
-    print(memo)
     return shortest
 
 print(best_sum(8, [1,2,3]))
