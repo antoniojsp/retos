@@ -6,7 +6,7 @@ def how_sum_tab(target, nums):
     table[0] = []
 
     for i in range(len(table)):
-        if table[0] is not None:
+        if table[i] is not None:
             for val in nums:
                 try:
                     table[i+val] = table[i] + [val]
