@@ -13,7 +13,4 @@ def grid_traveler(row, col, memo = {}):
     return memo[name]
 
 
-
-
-
 print(grid_traveler(18,18))
