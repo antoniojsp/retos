@@ -1,4 +1,9 @@
 
+def update(arr, index):
+    try:
+        arr[index] = True
+    except IndexError:
+        return
 
 def can_sum_tab(target, nums):
 
@@ -8,8 +13,7 @@ def can_sum_tab(target, nums):
     for i in range(0, target):
         if table[i]:
             for j in nums:
-                if i+j < len(table):
-                    table[i+j] = True
+                update(table, i+j)
 
     return table[-1]
 
