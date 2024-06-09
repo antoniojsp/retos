@@ -80,9 +80,9 @@ class TestCanConstructSuffix(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    # unittest.main()
 
-    # print(can_construct_suffix_memo("anti dis establishment arian ism", ["anti", "dis", "establishment", "arian", "ism"]))
+    print(can_construct_suffix_memo("anti dis establishment arian ism", ["anti", "dis", "establishment", "arian", "ism"]))
 
 
 
