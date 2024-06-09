@@ -10,10 +10,7 @@ def can_construct(word, wordbank):
         if boolean:
             for i in wordbank:
                 if word[index:index+len(i)] == i:
-                    # print(i)
-                    table[index+len(i)] = table[index]
-                    # print(table)
-            # print()
+                    table[index+len(i)] = True
     return table[-1]
 
 print(can_construct("enterapotentpot", ["a","p","ent", "enter", "ot", "o", "t"]))
