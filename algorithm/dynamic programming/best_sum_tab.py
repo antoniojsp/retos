@@ -8,10 +8,12 @@ def best_sum_tab(target, nums):
     for i in range(target+1):
         if table[i] is not None:
             for val in nums:
-                if i + val < len(table):
+                try:
                     combo = table[i] + [val]
                     if table[i+val] is None or len(combo) < len(table[i+val]):
                         table[i + val] = combo
+                except IndexError:
+                    pass
 
     return table[-1]
 
@@ -29,6 +31,7 @@ class TestBestSumTab(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    print(best_sum_tab(100, [1,2,5,25]))
 
 # []none none none
 # [2,2,2,2][2,3,3][3,5]u

@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Set the root folder path
-root_folder_path = "."
+root_folder_path = "PDF Files"
 
 # Create a dictionary to store the file extensions and their corresponding subfolder paths
 file_extensions_to_folders = {
