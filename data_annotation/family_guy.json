@@ -1,0 +1,65 @@
+{
+  "Characters": [
+    {
+      "Name": "Peter Griffin",
+      "Role": "Father",
+      "Description": "Peter is the bumbling, ignorant, yet good-hearted father of the Griffin family. He works as a safety inspector at Pawtucket Brewery and is known for his offensive humor, lazy nature, and love of fast food.",
+      "Age": 43,
+      "Height": "5'10",
+      "Weight": "270 lbs",
+      "Catchphrase": "Freakin' sweet!",
+      "Image": "peter_griffin.png"
+    },
+    {
+      "Name": "Lois Griffin",
+      "Role": "Mother",
+      "Description": "Lois is the intelligent, witty, and patient mother of the Griffin family. She is a stay-at-home mother who often serves as the voice of reason amidst Peter's chaos.",
+      "Age": 42,
+      "Height": "5'8",
+      "Weight": "140 lbs",
+      "Catchphrase": "Peter, you're killing me!",
+      "Image": "lois_griffin.png"
+    },
+    {
+      "Name": "Brian Griffin",
+      "Role": "Talking Dog",
+      "Description": "Brian is the intelligent, sophisticated, and anthropomorphic dog of the Griffin family. He provides commentary on the show's events.",
+      "Age": 8,
+      "Species": "Labrador Retriever",
+      "Height": "3 ft",
+      "Weight": "70 lbs",
+      "Catchphrase": "Whose leg do you have to hump to get a dry martini around here?",
+      "Image": "brian_griffin.png"
+    },
+    {
+      "Name": "Meg Griffin",
+      "Role": "Daughter",
+      "Description": "Meg is the eldest Griffin daughter. She is a teenager struggling with her identity and often embarrassed by her family's antics.",
+      "Age": 17,
+      "Height": "5'4",
+      "Weight": "115 lbs",
+      "Catchphrase": "Oh, God, please no!",
+      "Image": "meg_griffin.png"
+    },
+    {
+      "Name": "Chris Griffin",
+      "Role": "Son",
+      "Description": "Chris is the middle Griffin son. He is depicted as a mischievous, lazy, and socially awkward teenager.",
+      "Age": 14,
+      "Height": "5'8",
+      "Weight": "160 lbs",
+      "Catchphrase": "Aww, come on!",
+      "Image": "chris_griffin.png"
+    },
+    {
+      "Name": "Stewie Griffin",
+      "Role": "Son",
+      "Description": "Stewie is the youngest Griffin son and the show's primary antagonist. He is a diabolical, genius baby bent on killing his mother.",
+      "Age": 1,
+      "Height": "2 ft",
+      "Weight": "30 lbs",
+      "Catchphrase": "What the deuce?",
+      "Image": "stewie_griffin.png"
+    }
+  ]
+}
