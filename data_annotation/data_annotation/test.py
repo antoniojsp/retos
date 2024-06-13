@@ -1,45 +1,56 @@
-import random
 
-# Define the word list with words of 5 letters or less
-words = ["boy", "cat", "moon", "star", "ship"]
 
-# Pick a random word from the list
-word = random.choice(words)
-print(word)
+import socket
+import json
 
-# Create a blank space for each letter in the word
-blank_word = ["_"] * len(word)
+# Dictionary of popular movies and their ratings
+movie_data = {
+    "The Shawshank Redemption": 9.3,
+    "The Godfather": 9.2,
+    "The Dark Knight": 9.0,
+    "12 Angry Men": 8.9,
+    "Schindler's List": 8.9,
+    "Pulp Fiction": 8.9
+}
 
-# Define the game variables
-incorrect_guesses = 0
 
-# Play the game until the word is guessed or the user runs out of attempts
-while "_" in blank_word and incorrect_guesses < 3:
-    # Print the current state of the word
-    print(" ".join(blank_word))
+def get_movies():
+    # Return a list of popular movies and their ratings in a JSON format
+    return json.dumps(movie_data)
 
-    # Ask the user to guess a letter
-    print("Guess a letter: ")
-    guess = input().strip().lower()
 
-    # Check if the letter is in the word
-    if guess in word:
-        # Fill in all occurrences of the correct letter
-        for i, letter in enumerate(word):
-            if letter == guess:
-                blank_word[i] = guess
-        print("Correct!")
+def get_response(request):
+    # Implement the GET protocol
+    if request.startswith('GET /movies HTTP/1.1'):
+        status = '200 OK'
+        headers = 'Content-Type: application/json'
+        body = get_movies()
     else:
-        # Keep track of the incorrect guess
-        incorrect_guesses += 1
-        print(f"Incorrect! {3 - incorrect_guesses} guesses left.")
+        status = '404 Not Found'
+        headers = 'Content-Type: text/html'
+        body = b'<h1>Error 404: Page Not Found</h1>'
 
-    # Print a blank line for better readability between attempts
-    print()
+    response = f"HTTP/1.1 {status}\r\n{headers}\r\n\r\n{body}"
+    return response.encode('utf-8')
 
-# If the word blanks are all filled correctly, print a congratulatory message
-if "_" not in blank_word:
-    print("Congratulations, you won! The word was:", word)
-else:
-    # If the user ran out of attempts, print a game over message
-    print("Game over! The word was:", word)
+
+def main():
+    # Create a TCP/IP socket
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_address = ('localhost', 12345)  # Choose a port number (12345 in this example)
+    print(f"Starting server on {server_address[0]}:{server_address[1]}")
+    server_socket.bind(server_address)
+    server_socket.listen()
+
+    while True:
+        client_connection, client_address = server_socket.accept()
+        request = client_connection.recv(1024).decode('utf-8')
+        print(f"Received request: {request}")
+
+        response = get_response(request)
+        client_connection.sendall(response)
+        client_connection.close()
+
+
+if __name__ == "__main__":
+    main()
