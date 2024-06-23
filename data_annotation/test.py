@@ -1,5 +1,7 @@
-a = [    "apple",    "tv",    "cold drink",    "banana",    "screwdriver",    "chicken curry",    "chair",    "cloud",    "pizza",    "water",    "ocean",    "tree",    "leaf",    "flower",    "fan"]
+a = 1
+b = 1
 
-print(len(a))
-for i in a:
-    print(i)
+xor = a ^ b
+
+print(xor)
+
