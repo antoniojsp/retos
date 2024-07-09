@@ -1,0 +1,110 @@
+
+Everything You wanted to know about the Federal Information Security Management Act (FISMA)
+
+The Federal Information Security Management Act (FISMA) is a U.S. federal law that requires federal government agencies and their third-party partners to implement an information security program to protect their sensitive data. It provides a comprehensive security and risk management framework to implement effective controls for federal information systems.
+
+Introduced in 2002, FISMA is part of the E-Government Act of 2002 that’s aimed at improving the management of electronic government services and processes. Both these U.S. government regulations are implemented to uphold federal data security standards and protect sensitive data in government systems. FISMA 2002 was amended by the Federal Information Security Modernization Act of 2014 (FISMA 2014).
+What is FISMA compliance?
+
+FISMA compliance means adhering to a set of policies, standards, and guidelines to protect the personal or sensitive information contained in government systems. FISMA requires all government agencies and their vendors, service providers, and contractors to improve their information security controls based on these pre-defined requirements. Like FISMA, the Federal Risk and Authorization Management Program (FedRAMP) enables federal agencies and their vendors to protect government data, albeit for cloud services.
+
+FISMA is jointly overseen by the Department of Homeland Security (DHS) and the National Institute of Standards and Technology (NIST). NIST develops the FISMA standards and guidelines – including the minimum security requirements – that bolster the IT security and risk management practices of agencies and their contractors. The DHS administers these programs to help maximize federal information system security.
+FISMA non-compliance penalties
+
+FISMA non-compliance can result in many penalties, including reduced federal funding and censure by the U.S. Congress. Companies can also lose federal contracts and suffer damage to their reputation. Further, non-compliance indicates a poor cybersecurity infrastructure, which may result in costly cyberattacks or data breaches, which could then result in regulatory fines or legal penalties.
+Who must be FISMA-compliant?
+
+FISMA’s data protection rules were originally applicable only to U.S. federal agencies. While these standards are still applicable to all federal agencies without exception, they are now applicable to other organizations as well. Thus, any third-party contractor or other organization that provides services to a federal agency and handles sensitive information on behalf of the government must also comply with FISMA.
+
+Thus the list of organizations that must comply with FISMA includes:
+
+    Public or private sector organizations having contractual agreements with federal agencies
+    Public or private organizations that support a federal program or receive grants from federal agencies
+    State agencies like Medicare and Medicaid
+
+Speak to one of our experts
+Request a demo | AlgoSec https://www.algosec.com
+
+What are the FISMA compliance requirements?
+
+The seven key requirements of FISMA compliance are:
+1. Maintain an inventory of information systems
+
+All federal agencies and their contractors must maintain an updated list of their IT systems. They must also identify and track the integrations between these systems and any other systems in the network. The inventory should include systems that are not operated by or under their direct control.
+2. Categorize information security risks
+
+Organizations must categorize their information and information systems in order of risk. Such categorizations can help them to focus their security efforts on high-risk areas and ensure that sensitive information is given the highest level of security.
+
+The NIST’s FIPS 199 standard provides risk categorization guidelines. It also defines a range of risk levels that organizations can assign to their information systems during risk categorization.
+3. Implement security controls
+
+Since FISMA’s purpose is to protect the information in government systems, security controls that provide this protection are a mandatory requirement. Under FISMA, all government information systems must meet the minimum security requirements defined in FIPS 200.
+
+Organizations are not required to implement every single control. However, they must implement the controls that are relevant to them and their systems. They must also document the selected controls in their system security plan (SSP). NIST 800-53 (NIST special publication or SP) provides a list of suggested security controls for FISMA compliance.
+4. Conduct risk assessments
+
+A risk assessment is a review of an organization’s security program to identify and assess potential risks. After identifying cyber threats and vulnerabilities, the organization should map them to the security controls that could mitigate them.
+
+Based on the likelihood and impact of a security incident, they must determine the risk of that threat. The final risk assessment includes risk calculations of all possible security events plus information about whether the organization will accept or mitigate each of these risks.
+
+NIST SP 800-30 provides guidance to conduct risk assessments for FISMA compliance. The NIST recommends identifying risks at three levels: organizational, business process, and information system.
+5. Create a system security plan
+
+All federal agencies must implement an SSP to help with the implementation of security controls. They must also regularly maintain it and update it annually to ensure that they can implement the best and most up-to-date security solutions.
+
+The SSP should include information about the organization’s security policies and controls, and a timeline to introduce further controls. It can also include security best practices. The document is a major input in the agency’s (or third party’s) security certification and accreditation process.
+6. Conduct annual security reviews
+
+Under FISMA, all program officers, compliance officials, and agency heads must conduct and oversee annual security reviews to confirm that the implemented security controls are sufficient and information security risks are at a minimum level.
+
+Agency officials can also accredit their information systems. By doing this, they accept responsibility for the security of these systems and are accountable for any adverse impacts of security incidents. Accreditation is part of the four-phase FISMA certification process. Its other three phases are initiation and planning, certification, and continuous monitoring.
+7. Continuously monitor information systems
+
+Organizations must monitor their implemented security controls and document system changes and modifications. If they make major changes, they should also conduct an updated risk assessment. They may also need to be recertified.
+What are the benefits of FISMA compliance?
+
+FISMA compliance benefits both government agencies and their contractors and vendors. By following its guidelines and implementing its requirements, they can:
+
+    Adopt a robust risk management-centered approach to security planning and implementation
+    Continually assess, monitor, and optimize their security ecosystem
+    Increase org-wide awareness about the need to secure sensitive data
+    Improve incident response and accelerate incident and risk remediation
+
+Benefits of FISMA compliance for federal agencies
+
+FISMA compliance increases the cybersecurity focus within federal agencies. By implementing its mandated security controls, it can protect its information and information systems, and also protect the privacy of individuals and national security.
+
+In addition, by continuously monitoring their controls, they can maintain a consistently strong security posture. They can also eliminate newly-discovered vulnerabilities quickly and cost-effectively.
+Benefits of FISMA compliance for other organizations
+
+FISMA-compliant organizations can strengthen their security postures by implementing its security best practices. They can better protect their data and the government’s data, prevent data breaches and improve incident response planning.
+
+Furthermore, they can demonstrate to federal agencies that they have implemented FISMA’s recommended security controls, which gives them an advantage when trying to get new business from these agencies.
+The three levels of FISMA compliance
+
+FISMA defines three compliance levels, which refer to the possible impact of a security breach on an organization. These three impact levels are:
+1. Low impact
+
+Low impact means that the loss of confidentiality, integrity, or availability is likely to have a limited adverse effect on the organization’s operations, assets, or people. For this reason, the security controls for these systems or data types need only meet the low level of FISMA compliance.
+2. Moderate impact
+
+A moderate impact incident is one in which the loss of confidentiality, integrity, or availability could have serious adverse consequences for the organization’s operations, assets, or people. For example, it may result in significant financial loss to the organization or significant harm to individuals. However, it is unlikely to cause severe damage or result in the loss of life.
+3. High impact
+
+The compromise of a high-impact information system could have catastrophic consequences for the organization’s operations, assets, or people. For example, a breach may prevent the organization from performing its primary functions, resulting in major financial loss. It may also cause major damage to assets or result in severe harm to individuals (e.g., loss of life or life-threatening injuries). To prevent such consequences, these systems must be protected with the strongest controls.
+FISMA compliance best practices
+
+Following the best practices outlined below can ease the FISMA compliance effort and enable organizations to meet all applicable FISMA requirements:
+
+    Identify the information that must be protected and classify it based on its sensitivity level as it is created
+    Create a security plan to monitor data activity and detect threats
+    Implement automatic encryption for sensitive data
+    Conduct regular risk assessments to identify and fix vulnerabilities and outdated policies
+    Regularly monitor information security systems
+    Provide cybersecurity awareness training to employees
+    Maintain evidence of FISMA compliance, including records of system inventories, risk categorization efforts, security controls, SSPs, certifications, and accreditations
+    Stay updated on changes to FISMA standards, new NIST guidelines, and evolving security best practices
+
+How AlgoSec can help you with FISMA compliance?
+
+Using the AlgoSec platform, you can instantly and clearly see which applications expose you to FISMA compliance violations. You can also automatically generate pre-populated, audit-ready compliance reports to reduce your audit preparation efforts and costs and enhance your audit readiness. AlgoSec will also uncover gaps in your FISMA compliance posture and proactively check every change for possible compliance violations.

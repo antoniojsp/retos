@@ -3,49 +3,42 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="D:\Downloads\Alternative Fuel Vehicles US.csv">
+        <entry key="D:\Downloads\Netflix_TV_Shows_and_Movies.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="D:\Downloads\Buncombe_-_Closed_SFR_-_11_30_23_-_12_30_23_-_Sheet1(1).csv">
+        <entry key="D:\Downloads\ice_email_replies-ice_email_replies.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="D:\Downloads\Sales-PrintingOffice2023v1-Sheet1.csv">
+        <entry key="D:\Downloads\sales_memos.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="D:\Downloads\population_ca.csv">
+        <entry key="D:\Downloads\trapiche_ingenio_nv.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="D:\Downloads\population_ma.csv">
+        <entry key="\data_annotation\attention_ende_enfr\bleu_scores.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="D:\Downloads\population_ny.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data_annotation\Alternative Fuel Vehicles US.csv">
+        <entry key="\data_annotation\attention_ende_enfr\combined_bleu_scores.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -60,6 +53,13 @@
           </value>
         </entry>
         <entry key="\data_annotation\graeds_xlsx_remove\grades.xlsx - Period 2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_annotation\longest _song\Spotify_2000.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -88,6 +88,27 @@
           </value>
         </entry>
         <entry key="\data_annotation\population_less\population_ny_filtered.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_annotation\reatail_store_performance\retail_store_performance_installed_difference.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_annotation\reatail_store_performance\retail_store_performance_installed_difference1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_annotation\reatail_store_performance\retail_store_performance_installed_difference2.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
