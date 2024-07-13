@@ -3,34 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="D:\Downloads\Netflix_TV_Shows_and_Movies.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="D:\Downloads\ice_email_replies-ice_email_replies.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="D:\Downloads\sales_memos.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="D:\Downloads\trapiche_ingenio_nv.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\data_annotation\attention_ende_enfr\bleu_scores.csv">
           <value>
             <Attribute>
@@ -46,6 +18,13 @@
           </value>
         </entry>
         <entry key="\data_annotation\data_econ_vas\DATA_ECOM_VAS_v1-.xlsx-Grossreport.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_annotation\emai_ice\ice_email_replies-ice_email_replies.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
