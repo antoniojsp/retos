@@ -1,0 +1,253 @@
+Lifecycle Status,Manufacturer,Part Number,Series,Description,Replacement Part Number,Item #,Bin Location,Installed Quantity,Recommended Spares,Storeroom Quantity,PMA Quantity,P2 Quantity,Stash Quantity,Insufficient Spares,Excess Spares,List Price,Installed Total,Recommended Total,Storeroom Total,PMA Total,P2 Total,Stash Total,Insufficient Total,Excess Total
+ACTIVE,ROCKWELL,1734-4IOL,,POINT I/O 4CHANNEL IO-LINK MASTER MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	456 , $	911 , $	456 , $	-   , $	-   , $	-   , $	-   , $	456 , $	-   
+ACTIVE,ROCKWELL,1734-AENT,,POINT I/O ETHERNET NETWORK ADAPTOR,NOT AVAILABLE,"69006985, 69008678",,26,2,12,0,0,0,0,10, $	729 ," $	18,950 "," $	1,458 "," $	8,746 ", $	-   , $	-   , $	-   , $	-   ," $	7,289 "
+ACTIVE,ROCKWELL,1734-AENTR,,POINT I/O DUAL PORT NETWORK ADAPTOR,NOT AVAILABLE,,,87,2,0,0,0,0,2,0, $	866 ," $	75,380 "," $	1,733 ", $	-   , $	-   , $	-   , $	-   ," $	1,733 ", $	-   
+ACTIVE,ROCKWELL,1734-CTM,,POINT I/O COMMON TERMINAL MODULE,NOT AVAILABLE,,,0,0,4,0,0,0,0,4, $	45 , $	-   , $	-   , $	181 , $	-   , $	-   , $	-   , $	-   , $	181 
+ACTIVE,ROCKWELL,1734-EP24DC,,POINT I/O EXTENSION POWER MODULE,NOT AVAILABLE,,,52,2,2,0,0,0,0,0, $	270 ," $	14,051 ", $	540 , $	540 , $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1734-FPD,,POINT I/O FIELD DISTRIBUTOR MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	152 , $	305 , $	152 , $	-   , $	-   , $	-   , $	-   , $	152 , $	-   
+ACTIVE,ROCKWELL,1734-IA4,,POINT I/O 4 POINT DIGITAL INPUT MODULE,NOT AVAILABLE,,,2,1,1,0,0,0,0,0, $	195 , $	389 , $	195 , $	195 , $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1734-IB8,,POINT I/O 8 POINT DIGITAL INPUT MODULE,NOT AVAILABLE,,,172,2,2,0,0,0,0,0, $	165 ," $	28,356 ", $	330 , $	330 , $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1734-IB8S,,8 CHANNEL SFTY SINKING INP MOD PN-25132,NOT AVAILABLE,,,217,3,0,0,0,0,3,0, $	686 ," $	148,947 "," $	2,059 ", $	-   , $	-   , $	-   , $	-   ," $	2,059 ", $	-   
+ACTIVE,ROCKWELL,1734-IE2C,,POINT I/O 2 POINT ANALOG INPUT MODULE,NOT AVAILABLE,,,9,1,0,0,0,0,1,0, $	435 ," $	3,916 ", $	435 , $	-   , $	-   , $	-   , $	-   , $	435 , $	-   
+ACTIVE,ROCKWELL,1734-IE2V,,POINT I/O 2 POINT ANALOG INPUT MODULE,NOT AVAILABLE,69007327,,14,1,2,0,0,0,0,1, $	415 ," $	5,813 ", $	415 , $	830 , $	-   , $	-   , $	-   , $	-   , $	415 
+ACTIVE,ROCKWELL,1734-IE4C,,POINT I/O 4 POINT ANALOG INPUT MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	690 ," $	1,381 ", $	690 , $	-   , $	-   , $	-   , $	-   , $	690 , $	-   
+ACTIVE,ROCKWELL,1734-IK,,POINT I/O INCREMENTAL ENCODER INTERFACE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0, $	390 , $	390 , $	390 , $	-   , $	-   , $	-   , $	-   , $	390 , $	-   
+ACTIVE,ROCKWELL,1734-IT2I,,POINT I/O 2 POINT THERMOCOUPLE INPUT,NOT AVAILABLE,,,4,1,1,0,0,0,0,0, $	474 ," $	1,894 ", $	474 , $	474 , $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1734-OB8,,POINT I/O 8 POINT DIGITAL OUTPUT MODULE,NOT AVAILABLE,,,116,2,3,0,0,0,0,1, $	184 ," $	21,375 ", $	369 , $	553 , $	-   , $	-   , $	-   , $	-   , $	184 
+ACTIVE,ROCKWELL,1734-OB8E,,POINT I/O 8 POINT DIGITAL OUTPUT MODULE,NOT AVAILABLE,,,4,1,0,0,0,0,1,0, $	243 , $	972 , $	243 , $	-   , $	-   , $	-   , $	-   , $	243 , $	-   
+ACTIVE,ROCKWELL,1734-OB8S,,8 CHANNEL SAFETY SOURCING OUTPUT MODULE,NOT AVAILABLE,,,154,2,1,0,0,0,1,0, $	798 ," $	122,875 "," $	1,596 ", $	798 , $	-   , $	-   , $	-   , $	798 , $	-   
+ACTIVE,ROCKWELL,1734-OE2C,,POINT I/O 2 POINT ANALOG OUTPUT MODULE,NOT AVAILABLE,,,8,1,2,0,0,0,0,1, $	447 ," $	3,580 ", $	447 , $	895 , $	-   , $	-   , $	-   , $	-   , $	447 
+ACTIVE,ROCKWELL,1734-OE2V,,POINT I/O 2 POINT ANALOG OUTPUT MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	433 , $	865 , $	433 , $	-   , $	-   , $	-   , $	-   , $	433 , $	-   
+ACTIVE,ROCKWELL,1734-OW4,,POINT I/O 4 POINT DIGITAL OUTPUT MODULE,NOT AVAILABLE,,,17,1,3,0,0,0,0,2, $	239 ," $	4,067 ", $	239 , $	718 , $	-   , $	-   , $	-   , $	-   , $	478 
+ACTIVE,ROCKWELL,1734-SSI,,POINT I/O SSI ENCODER MODULE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0, $	444 , $	444 , $	444 , $	-   , $	-   , $	-   , $	-   , $	444 , $	-   
+ACTIVE,ROCKWELL,1756-A10,,CONTROLLOGIX 10 SLOTS CHASSIS,NOT AVAILABLE,,,12,1,1,0,0,0,0,0, $	981 ," $	11,774 ", $	981 , $	981 , $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1756-A13,,CONTROLLOGIX 13 SLOTS CHASSIS,NOT AVAILABLE,,,48,2,1,0,0,0,1,0," $	1,179 "," $	56,613 "," $	2,359 "," $	1,179 ", $	-   , $	-   , $	-   ," $	1,179 ", $	-   
+ACTIVE,ROCKWELL,1756-A17,,CONTROLLOGIX 17 SLOTS CHASSIS,NOT AVAILABLE,,,16,1,1,0,0,0,0,0," $	1,385 "," $	22,165 "," $	1,385 "," $	1,385 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1756-A7,,CONTROLLOGIX 7 SLOTS CHASSIS,NOT AVAILABLE,,,14,1,0,0,0,0,1,0, $	806 ," $	11,281 ", $	806 , $	-   , $	-   , $	-   , $	-   , $	806 , $	-   
+ACTIVE,ROCKWELL,1756-EN2T,,CLX HI-CAP ENET/IP MODULE - TP,NOT AVAILABLE,69004802,SR3S7B3,50,2,2,1,0,0,0,1," $	4,194 "," $	209,705 "," $	8,388 "," $	8,388 "," $	4,194 ", $	-   , $	-   , $	-   ," $	4,194 "
+ACTIVE,ROCKWELL,1756-EN2TR,,2-PORT CLX HI-CAP ENET/IP MODULE - TP,NOT AVAILABLE,,,65,2,0,0,0,0,2,0," $	4,537 "," $	294,921 "," $	9,075 ", $	-   , $	-   , $	-   , $	-   ," $	9,075 ", $	-   
+ACTIVE,ROCKWELL,1756-EN3TR,,CONTROLLOGIX ETHERNET MOTION MODULE,NOT AVAILABLE,,,6,1,0,0,0,0,1,0," $	5,846 "," $	35,078 "," $	5,846 ", $	-   , $	-   , $	-   , $	-   ," $	5,846 ", $	-   
+DISCONTINUED,ROCKWELL,1756-ENBT,,CONTROLLOGIX ENET/IP COMMS MODULE,1756-EN2T,69004802,SR3S7B3,21,2,0,0,0,0,2,0," $	3,643 "," $	76,499 "," $	7,286 ", $	-   , $	-   , $	-   , $	-   ," $	7,286 ", $	-   
+ACTIVE,ROCKWELL,1756-HSC,,CONTROLLOGIX HIGH SPEED COUNTER MODULE,NOT AVAILABLE,69004796,NR4S4B1,6,1,2,0,0,0,0,1," $	1,690 "," $	10,142 "," $	1,690 "," $	3,381 ", $	-   , $	-   , $	-   , $	-   ," $	1,690 "
+ACTIVE,ROCKWELL,1756-IA16,,CONTROLLOGIX 16 PT D/I 120V AC MODULE,NOT AVAILABLE,,,78,2,0,0,0,0,2,0, $	733 ," $	57,200 "," $	1,467 ", $	-   , $	-   , $	-   , $	-   ," $	1,467 ", $	-   
+ACTIVE,ROCKWELL,1756-IA16I,,CONTROLLOGIX INPUT MODULE,NOT AVAILABLE,,,0,0,1,0,0,0,0,1, $	924 , $	-   , $	-   , $	924 , $	-   , $	-   , $	-   , $	-   , $	924 
+ACTIVE,ROCKWELL,1756-IB16,,CONTROLLOGIX 16 PT 12/24V DC D/I MODULE,NOT AVAILABLE,,,258,3,3,1,0,0,0,1, $	572 ," $	147,558 "," $	1,716 "," $	1,716 ", $	572 , $	-   , $	-   , $	-   , $	572 
+ACTIVE,ROCKWELL,1756-IF16,,CONTROLLOGIX 16 POINT A/I MODULE,NOT AVAILABLE,,,6,1,1,0,0,0,0,0," $	2,474 "," $	14,846 "," $	2,474 "," $	2,474 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1756-IF16H,,CONTROLLOGIX 16 PT A/I HART MODULE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	3,588 "," $	3,588 "," $	3,588 ", $	-   , $	-   , $	-   , $	-   ," $	3,588 ", $	-   
+ACTIVE,ROCKWELL,1756-IF4FXOF2F,,CONTROLLOGIX 4 POINT ANALOG COMB MODULE,NOT AVAILABLE,,,2,1,1,0,0,0,0,0," $	3,737 "," $	7,474 "," $	3,737 "," $	3,737 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1756-IF8,,CONTROLLOGIX 8 POINT A/I MODULE,NOT AVAILABLE,,,13,1,0,0,0,0,1,0," $	1,714 "," $	22,281 "," $	1,714 ", $	-   , $	-   , $	-   , $	-   ," $	1,714 ", $	-   
+DISCONTINUED,ROCKWELL,1756-IR6I,,CONTROLLOGIX 6 PT ISOLATED RTD IN MODULE,1756-IRT8I WITH FW 2.011,,,52,2,1,0,0,0,1,0," $	2,550 "," $	132,600 "," $	5,100 "," $	2,550 ", $	-   , $	-   , $	-   ," $	2,550 ", $	-   
+ACTIVE,ROCKWELL,1756-IRT8I,,CONTROLLOGIX 8 POINT RTD/THERMOCOUPLE IN,NOT AVAILABLE,,,6,1,0,1,0,0,0,0," $	3,838 "," $	23,029 "," $	3,838 ", $	-   ," $	3,838 ", $	-   , $	-   , $	-   , $	-   
+DISCONTINUED,ROCKWELL,1756-IT6I,,CONTROLLOGIX 6 PT ISOLATED TC IN MODULE,1756-IRT8I WITH FW 2.011,,,19,1,0,0,0,0,1,0," $	3,290 "," $	62,510 "," $	3,290 ", $	-   , $	-   , $	-   , $	-   ," $	3,290 ", $	-   
+DISCONTINUED,ROCKWELL,1756-IT6I2,,CONTROLLOGIX 6 PT ENHANCED TC IN MODULE,1756-IRT8I WITH FW 2.011,69003323,BR3S2C1,0,0,1,0,0,0,0,1," $	2,680 ", $	-   , $	-   ," $	2,680 ", $	-   , $	-   , $	-   , $	-   ," $	2,680 "
+ACTIVE,ROCKWELL,1756-IV16,,CONTROLLOGIX 16 PT 12/24V DC D/I MODULE,NOT AVAILABLE,,,0,0,2,0,0,0,0,2, $	587 , $	-   , $	-   ," $	1,174 ", $	-   , $	-   , $	-   , $	-   ," $	1,174 "
+ACTIVE,ROCKWELL,1756-L71,,CONTROLLOGIX 2 MB CONTROLLER,NOT AVAILABLE,,,7,1,0,0,0,0,1,0," $	8,514 "," $	59,596 "," $	8,514 ", $	-   , $	-   , $	-   , $	-   ," $	8,514 ", $	-   
+ACTIVE,ROCKWELL,1756-L71S,,LOGIX 5571S AUTOMATION CONTROLLER 2/1M,NOT AVAILABLE,,,13,1,0,0,0,0,1,0," $	9,159 "," $	119,068 "," $	9,159 ", $	-   , $	-   , $	-   , $	-   ," $	9,159 ", $	-   
+ACTIVE,ROCKWELL,1756-L72,,CONTROLLOGIX 4 MB CONTROLLER,NOT AVAILABLE,,,3,1,0,0,0,0,1,0," $	12,334 "," $	37,001 "," $	12,334 ", $	-   , $	-   , $	-   , $	-   ," $	12,334 ", $	-   
+ACTIVE,ROCKWELL,1756-L72S,,LOGIX 5572S AUTOMATION CONTROLLER 4M/2M,NOT AVAILABLE,,,7,1,0,0,0,0,1,0," $	13,477 "," $	94,341 "," $	13,477 ", $	-   , $	-   , $	-   , $	-   ," $	13,477 ", $	-   
+ACTIVE,ROCKWELL,1756-L73,,CONTROLLOGIX 8 MB CONTROLLER,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	17,619 "," $	17,619 "," $	17,619 ", $	-   , $	-   , $	-   , $	-   ," $	17,619 ", $	-   
+ACTIVE,ROCKWELL,1756-L75,,CONTROLLOGIX 32 MB CONTROLLER,NOT AVAILABLE,,,12,1,1,0,0,0,0,0," $	29,052 "," $	348,620 "," $	29,052 "," $	29,052 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1756-L81E,,CONTROLLOGIX 5580 CONTROLLER,NOT AVAILABLE,,,3,1,0,0,0,0,1,0," $	8,372 "," $	25,117 "," $	8,372 ", $	-   , $	-   , $	-   , $	-   ," $	8,372 ", $	-   
+ACTIVE,ROCKWELL,1756-L83E,,CONTROLLOGIX 5580 CONTROLLER,NOT AVAILABLE,,,1,1,0,1,0,0,0,0," $	17,140 "," $	17,140 "," $	17,140 ", $	-   ," $	17,140 ", $	-   , $	-   , $	-   , $	-   
+DISCONTINUED,ROCKWELL,1756-LSP,,GUARDLOGIX SAFETY PARTNER,1756-L7SP,,,20,2,0,0,0,0,2,0," $	3,500 "," $	70,000 "," $	7,000 ", $	-   , $	-   , $	-   , $	-   ," $	7,000 ", $	-   
+ACTIVE,ROCKWELL,1756-OA16,,CONTROLLOGIX 16 POINT D/O MODULE,NOT AVAILABLE,,,79,2,1,0,0,0,1,0," $	1,037 "," $	81,930 "," $	2,074 "," $	1,037 ", $	-   , $	-   , $	-   ," $	1,037 ", $	-   
+ACTIVE,ROCKWELL,1756-OA16I,,CONTROLLOGIX 16 POINT D/O MODULE,NOT AVAILABLE,69007000,BR3S2C1,0,0,1,0,0,0,0,1," $	1,296 ", $	-   , $	-   ," $	1,296 ", $	-   , $	-   , $	-   , $	-   ," $	1,296 "
+ACTIVE,ROCKWELL,1756-OB16D,,CONTROLLOGIX 16 PT 24V DC D/O MODULE,NOT AVAILABLE,,,23,2,0,0,0,0,2,0," $	1,296 "," $	29,816 "," $	2,593 ", $	-   , $	-   , $	-   , $	-   ," $	2,593 ", $	-   
+ACTIVE,ROCKWELL,1756-OB16E,,CONTROLLOGIX 16 POINT D/O MODULE,NOT AVAILABLE,,,56,2,2,1,0,0,0,1, $	878 ," $	49,180 "," $	1,756 "," $	1,756 ", $	878 , $	-   , $	-   , $	-   , $	878 
+ACTIVE,ROCKWELL,1756-OB16I,,CONTROLLOGIX 16 POINT D/O MODULE,NOT AVAILABLE,69004125,NR4S4B1,0,0,1,0,0,0,0,1," $	1,155 ", $	-   , $	-   ," $	1,155 ", $	-   , $	-   , $	-   , $	-   ," $	1,155 "
+ACTIVE,ROCKWELL,1756-OF4,,CONTROLLOGIX 4 POINT A/O I OR V MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	1,946 "," $	3,892 "," $	1,946 ", $	-   , $	-   , $	-   , $	-   ," $	1,946 ", $	-   
+ACTIVE,ROCKWELL,1756-OF8,,CONTROLLOGIX 8 PT A/O I OR V MODULE,NOT AVAILABLE,69004791,SR3S7B2,15,1,5,0,0,0,0,4," $	3,222 "," $	48,325 "," $	3,222 "," $	16,108 ", $	-   , $	-   , $	-   , $	-   ," $	12,887 "
+ACTIVE,ROCKWELL,1756-OW16I,,CONTROLLOGIX 16 PT DIGITAL RELAY MODULE,NOT AVAILABLE,,,37,2,1,0,0,0,1,0, $	996 ," $	36,867 "," $	1,993 ", $	996 , $	-   , $	-   , $	-   , $	996 , $	-   
+ACTIVE,ROCKWELL,1756-PA72,,CONTROLLOGIX AC POWER SUPPLY,NOT AVAILABLE,69001579,,48,2,3,0,0,0,0,1," $	1,449 "," $	69,546 "," $	2,898 "," $	4,347 ", $	-   , $	-   , $	-   , $	-   ," $	1,449 "
+ACTIVE,ROCKWELL,1756-PA75,,CONTROLLOGIX AC POWER SUPPLY,NOT AVAILABLE,,,16,1,0,0,0,0,1,0," $	1,767 "," $	28,266 "," $	1,767 ", $	-   , $	-   , $	-   , $	-   ," $	1,767 ", $	-   
+ACTIVE,ROCKWELL,1756-PB72,,CONTROLLOGIX 24V DC POWER SUPPLY,NOT AVAILABLE,69005257,NR3S6D1,18,1,2,0,0,0,0,1," $	1,449 "," $	26,080 "," $	1,449 "," $	2,898 ", $	-   , $	-   , $	-   , $	-   ," $	1,449 "
+ACTIVE,ROCKWELL,1756-PB75,,CONTROLLOGIX 24V DC POWER SUPPLY,NOT AVAILABLE,69005149,NR4S11D3,4,1,1,1,0,0,0,1," $	1,767 "," $	7,066 "," $	1,767 "," $	1,767 "," $	1,767 ", $	-   , $	-   , $	-   ," $	1,767 "
+END OF LIFE,ROCKWELL,1756-RIO,,CONTROLLOGIX REMOTE I/O SCANNER MODULE,NOT AVAILABLE,31054118,,12,1,4,0,0,0,0,3," $	3,940 "," $	47,279 "," $	3,940 "," $	15,760 ", $	-   , $	-   , $	-   , $	-   ," $	11,820 "
+ACTIVE MATURE,ROCKWELL,1762-IF4,,MICROLOGIX 4 POINT ANALOG INPUT MODULE,2085-IF4,,,1,1,0,0,0,0,1,0, $	554 , $	554 , $	554 , $	-   , $	-   , $	-   , $	-   , $	554 , $	-   
+ACTIVE MATURE,ROCKWELL,1762-IQ16,,MICROLOGIX 16 POINT DIGITAL INPUT MODULE,2085-IQ16,,,4,1,0,0,0,0,1,0, $	331 ," $	1,323 ", $	331 , $	-   , $	-   , $	-   , $	-   , $	331 , $	-   
+ACTIVE MATURE,ROCKWELL,1762-IR4,,MICROLOGIX 4 POINT MODULE,2085-IRT4,,,1,1,0,0,0,0,1,0, $	771 , $	771 , $	771 , $	-   , $	-   , $	-   , $	-   , $	771 , $	-   
+ACTIVE MATURE,ROCKWELL,1762-IT4,,MICROLOGIX 4 POINT INPUT MODULE,2085-IRT4,,,10,1,2,0,0,0,0,1, $	771 ," $	7,709 ", $	771 ," $	1,542 ", $	-   , $	-   , $	-   , $	-   , $	771 
+ACTIVE MATURE,ROCKWELL,1762-OF4,,MICROLOGIX 4 POINT ANALOG OUTPUT MODULE,2085-OF4,,,4,1,0,0,0,0,1,0, $	523 ," $	2,091 ", $	523 , $	-   , $	-   , $	-   , $	-   , $	523 , $	-   
+ACTIVE MATURE,ROCKWELL,1762-OW16,,MICROLOGIX 16 POINT RELAY OUTPUT MODULE,2085-OW16,,,4,1,0,0,0,0,1,0, $	401 ," $	1,604 ", $	401 , $	-   , $	-   , $	-   , $	-   , $	401 , $	-   
+DISCONTINUED,ROCKWELL,1763-L16AWA,,MICROLOGIX 1100 16 POINT CONTROLLER,MICRO800,,,6,1,0,0,0,0,1,0," $	1,048 "," $	6,286 "," $	1,048 ", $	-   , $	-   , $	-   , $	-   ," $	1,048 ", $	-   
+ACTIVE MATURE,ROCKWELL,1766-L32AWA,,MICROLOGIX 1400 32 POINT CONTROLLER,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	1,258 "," $	2,516 "," $	1,258 ", $	-   , $	-   , $	-   , $	-   ," $	1,258 ", $	-   
+ACTIVE MATURE,ROCKWELL,1766-L32BWA,,MICROLOGIX 1400 32 POINT CONTROLLER,NOT AVAILABLE,31014497,,0,0,1,0,0,0,0,1," $	1,258 ", $	-   , $	-   ," $	1,258 ", $	-   , $	-   , $	-   , $	-   ," $	1,258 "
+DISCONTINUED,ROCKWELL,1768-ENBT,,COMPACTLOGIX L4X ETHERNET/IP MODULE,1769/5069 CMX CONTROLLERFAMILY,,,46,2,0,0,0,0,2,0," $	1,930 "," $	88,780 "," $	3,860 ", $	-   , $	-   , $	-   , $	-   ," $	3,860 ", $	-   
+DISCONTINUED,ROCKWELL,1768-L43,,COMPACTLOGIX L43 2MB MEMORY CONTROLLER,1769/5069 CMX CONTROLLERFAMILY,,,18,1,1,0,0,0,0,0," $	6,720 "," $	120,960 "," $	6,720 "," $	6,720 ", $	-   , $	-   , $	-   , $	-   , $	-   
+DISCONTINUED,ROCKWELL,1768-L43S,,COMPACT GUARDLOGIX CPU  L43S  2M/0.5M,COMPACTGUARD LOGIX 5380,,,5,1,0,0,0,0,1,0," $	8,422 "," $	42,111 "," $	8,422 ", $	-   , $	-   , $	-   , $	-   ," $	8,422 ", $	-   
+DISCONTINUED,ROCKWELL,1768-PA3,,COMPACTLOGIX L4X AC/DC IN POWER SUPPLY,1769/5069 CMX CONTROLLERFAMILY,,,18,1,0,0,0,0,1,0, $	844 ," $	15,188 ", $	844 , $	-   , $	-   , $	-   , $	-   , $	844 , $	-   
+DISCONTINUED,ROCKWELL,1768-PB3,,COMPACTLOGIX L4X DC IN POWER SUPPLY,1769/5069 CMX CONTROLLERFAMILY,,,3,1,1,0,0,0,0,0, $	844 ," $	2,531 ", $	844 , $	844 , $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1769-ARM,,COMPACTLOGIX ADDRESS RESERVE MODULE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0, $	217 , $	217 , $	217 , $	-   , $	-   , $	-   , $	-   , $	217 , $	-   
+ACTIVE,ROCKWELL,1769-ASCII,,COMPACTLOGIX ASCII INTERFACE MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	1,100 "," $	2,200 "," $	1,100 ", $	-   , $	-   , $	-   , $	-   ," $	1,100 ", $	-   
+ACTIVE,ROCKWELL,1769-HSC,,COMPACTLOGIX HIGH-SPEED COUNTER MODULE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	1,396 "," $	1,396 "," $	1,396 ", $	-   , $	-   , $	-   , $	-   ," $	1,396 ", $	-   
+ACTIVE,ROCKWELL,1769-IA16,,COMPACTLOGIX 16 PT 120VAC D/I MODULE,NOT AVAILABLE,,,9,1,4,0,0,0,0,3, $	443 ," $	3,990 ", $	443 ," $	1,773 ", $	-   , $	-   , $	-   , $	-   ," $	1,330 "
+ACTIVE,ROCKWELL,1769-IF16C,,COMPACTLOGIX 16 PT A/I CURRENT MODULE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	1,771 "," $	1,771 "," $	1,771 ", $	-   , $	-   , $	-   , $	-   ," $	1,771 ", $	-   
+ACTIVE,ROCKWELL,1769-IF4,,COMPACTLOGIX 4 PT A/I  C AND V MODULE,NOT AVAILABLE,,,23,2,0,0,0,0,2,0, $	760 ," $	17,481 "," $	1,520 ", $	-   , $	-   , $	-   , $	-   ," $	1,520 ", $	-   
+ACTIVE,ROCKWELL,1769-IF4I,,COMPACTLOGIX 4 PT A/I C AND V ISO MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	1,448 "," $	2,895 "," $	1,448 ", $	-   , $	-   , $	-   , $	-   ," $	1,448 ", $	-   
+ACTIVE,ROCKWELL,1769-IF4XOF2,,COMPACTLOGIX 6 PT A/I AND A/O MODULE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0, $	919 , $	919 , $	919 , $	-   , $	-   , $	-   , $	-   , $	919 , $	-   
+ACTIVE,ROCKWELL,1769-IF8,,COMPACTLOGIX 8 PT ANALOG INPUT MODULE,NOT AVAILABLE,,,8,1,0,0,0,0,1,0," $	1,219 "," $	9,751 "," $	1,219 ", $	-   , $	-   , $	-   , $	-   ," $	1,219 ", $	-   
+ACTIVE,ROCKWELL,1769-IQ16,,COMPACTLOGIX 16 PT 24VDC D/I MODULE,NOT AVAILABLE,,,114,2,0,0,0,0,2,0, $	374 ," $	42,587 ", $	747 , $	-   , $	-   , $	-   , $	-   , $	747 , $	-   
+ACTIVE,ROCKWELL,1769-IQ32,,COMPACTLOGIX 32 PT 24VDC D/I MODULE,NOT AVAILABLE,,,3,1,0,0,0,0,1,0, $	657 ," $	1,970 ", $	657 , $	-   , $	-   , $	-   , $	-   , $	657 , $	-   
+ACTIVE,ROCKWELL,1769-IQ6XOW4,,CMPLX 10 PT  24VDC D/I RELAY D/O MODULE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0, $	377 , $	377 , $	377 , $	-   , $	-   , $	-   , $	-   , $	377 , $	-   
+ACTIVE,ROCKWELL,1769-IR6,,COMPACTLOGIX 6 PT RTD MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	1,642 "," $	3,283 "," $	1,642 ", $	-   , $	-   , $	-   , $	-   ," $	1,642 ", $	-   
+ACTIVE,ROCKWELL,1769-IT6,,COMPACTLOGIX 6 PT THERMOCOUPLE MODULE,NOT AVAILABLE,,,3,1,0,0,0,0,1,0," $	1,551 "," $	4,653 "," $	1,551 ", $	-   , $	-   , $	-   , $	-   ," $	1,551 ", $	-   
+DISCONTINUED,ROCKWELL,1769-L23E-QB1B,,CMPLX 512KB ENET DI/O  CONTROLLER,1769-L24ER-QB1B,,,1,1,0,0,0,0,1,0," $	2,990 "," $	2,990 "," $	2,990 ", $	-   , $	-   , $	-   , $	-   ," $	2,990 ", $	-   
+ACTIVE,ROCKWELL,1769-L24ER-QBFC1B,,COMPACTLOGIX 750KB DI/O AI/O CONTROLLER,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	4,117 "," $	8,234 "," $	4,117 ", $	-   , $	-   , $	-   , $	-   ," $	4,117 ", $	-   
+ACTIVE,ROCKWELL,1769-L30ERM,,COMPACTLOGIX 1 MB MOTION CONTROLLER,NOT AVAILABLE,69002961,,0,0,1,0,0,0,0,1," $	3,960 ", $	-   , $	-   ," $	3,960 ", $	-   , $	-   , $	-   , $	-   ," $	3,960 "
+ACTIVE,ROCKWELL,1769-L30ERMS,,"COMPACT GUARDLOGIX CPU, L30ERMS, 1M/0.5M",NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	5,786 "," $	5,786 "," $	5,786 ", $	-   , $	-   , $	-   , $	-   ," $	5,786 ", $	-   
+DISCONTINUED,ROCKWELL,1769-L32E,,COMPACTLOGIX 750KB ENET CONTROLLER,ASCII MODULE TO REPLACE SERIAL,,,6,1,0,0,0,0,1,0," $	5,496 "," $	32,978 "," $	5,496 ", $	-   , $	-   , $	-   , $	-   ," $	5,496 ", $	-   
+ACTIVE,ROCKWELL,1769-L33ER,,COMPACTLOGIX ETHERNET PROCESSOR,NOT AVAILABLE,,,6,1,0,0,0,0,1,0," $	4,404 "," $	26,425 "," $	4,404 ", $	-   , $	-   , $	-   , $	-   ," $	4,404 ", $	-   
+ACTIVE,ROCKWELL,1769-L33ERM,,COMPACTLOGIX 2 MB MOTION CONTROLLER,NOT AVAILABLE,,,17,1,1,0,0,0,0,0," $	5,567 "," $	94,643 "," $	5,567 "," $	5,567 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1769-OA16,,COMPACTLOGIX 16 PT 240VAC D/O MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	679 ," $	1,357 ", $	679 , $	-   , $	-   , $	-   , $	-   , $	679 , $	-   
+ACTIVE,ROCKWELL,1769-OB16,,COMPACTLOGIX 16 PT 24VDC D/O MODULE,NOT AVAILABLE,,,40,2,1,0,0,0,1,0, $	491 ," $	19,648 ", $	982 , $	491 , $	-   , $	-   , $	-   , $	491 , $	-   
+ACTIVE,ROCKWELL,1769-OB16P,,COMPACTLOGIX 16 PT 24VDC PROT D/O MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	601 ," $	1,202 ", $	601 , $	-   , $	-   , $	-   , $	-   , $	601 , $	-   
+ACTIVE,ROCKWELL,1769-OB32,,COMPACTLOGIX 32 PT 24VDC D/O MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	807 ," $	1,613 ", $	807 , $	-   , $	-   , $	-   , $	-   , $	807 , $	-   
+ACTIVE,ROCKWELL,1769-OB8,,COMPACTLOGIX 8 PT 24VDC D/O MODULE,NOT AVAILABLE,,,4,1,0,0,0,0,1,0, $	394 ," $	1,577 ", $	394 , $	-   , $	-   , $	-   , $	-   , $	394 , $	-   
+ACTIVE,ROCKWELL,1769-OF4,,COMPACTLOGIX 4 PT A/O C AND V MODULE,NOT AVAILABLE,69012870,,4,1,2,0,0,0,0,1," $	1,180 "," $	4,721 "," $	1,180 "," $	2,360 ", $	-   , $	-   , $	-   , $	-   ," $	1,180 "
+ACTIVE,ROCKWELL,1769-OF4CI,,COMPACTLOGIX 4 PT A/O CURRENT MODULE,NOT AVAILABLE,31091820,,0,0,1,0,0,0,0,1," $	1,719 ", $	-   , $	-   ," $	1,719 ", $	-   , $	-   , $	-   , $	-   ," $	1,719 "
+ACTIVE,ROCKWELL,1769-OF4VI,,COMPACTLOGIX 4 PT A/O VOLTAGEMODULE,NOT AVAILABLE,,,2,1,1,0,0,0,0,0," $	1,758 "," $	3,516 "," $	1,758 "," $	1,758 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1769-OF8C,,COMPACTLOGIX 8 PT A/O CURRENT MODULE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	2,275 "," $	2,275 "," $	2,275 ", $	-   , $	-   , $	-   , $	-   ," $	2,275 ", $	-   
+ACTIVE,ROCKWELL,1769-OF8V,,COMPACTLOGIX 8 PT A/O VOLTAGE MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	2,288 "," $	4,576 "," $	2,288 ", $	-   , $	-   , $	-   , $	-   ," $	2,288 ", $	-   
+ACTIVE,ROCKWELL,1769-OW16,,COMPACTLOGIX 16 PT D/O RELAY MODULE,NOT AVAILABLE,,,16,1,0,0,0,0,1,0, $	627 ," $	10,031 ", $	627 , $	-   , $	-   , $	-   , $	-   , $	627 , $	-   
+ACTIVE,ROCKWELL,1769-OW8,,COMPACTLOGIX 8 PT D/O RELAY MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	339 , $	677 , $	339 , $	-   , $	-   , $	-   , $	-   , $	339 , $	-   
+ACTIVE,ROCKWELL,1769-OW8I,,COMPACTLOGIX 8 PT D/O RELAY ISO MODULE,NOT AVAILABLE,,,47,2,0,0,0,0,2,0, $	458 ," $	21,507 ", $	915 , $	-   , $	-   , $	-   , $	-   , $	915 , $	-   
+ACTIVE,ROCKWELL,1769-PA2,,COMPACTLOGIX AC 2A/0.8A POWER SUPPLY,NOT AVAILABLE,,,8,1,0,0,0,0,1,0, $	428 ," $	3,423 ", $	428 , $	-   , $	-   , $	-   , $	-   , $	428 , $	-   
+ACTIVE,ROCKWELL,1769-PA4,,CMPLX SELECTABLE AC 4A/2A POWER SUPPLY,NOT AVAILABLE,,,8,1,3,0,0,0,0,2, $	701 ," $	5,605 ", $	701 ," $	2,102 ", $	-   , $	-   , $	-   , $	-   ," $	1,401 "
+ACTIVE,ROCKWELL,1769-PB2,,COMPACTLOGIX DC 2A/0.8A POWER SUPPLY,NOT AVAILABLE,,,0,0,2,0,0,0,0,2, $	428 , $	-   , $	-   , $	856 , $	-   , $	-   , $	-   , $	-   , $	856 
+ACTIVE,ROCKWELL,1769-PB4,,COMPACTLOGIX DC 4A/2A POWER SUPPLY,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	708 ," $	1,417 ", $	708 , $	-   , $	-   , $	-   , $	-   , $	708 , $	-   
+DISCONTINUED,ROCKWELL,1771-A1B,,4 SLOTS UNIVERSAL INPUT/OUTPUT CHASSIS,NOT AVAILABLE,,,10,1,0,0,0,0,1,0, $	619 ," $	6,190 ", $	619 , $	-   , $	-   , $	-   , $	-   , $	619 , $	-   
+DISCONTINUED,ROCKWELL,1771-ASB,,1771 REMOTE I/O ADAPTOR MODULE,MIGRATE TO RA LOGIX,,,10,1,0,0,0,0,1,0," $	4,660 "," $	46,600 "," $	4,660 ", $	-   , $	-   , $	-   , $	-   ," $	4,660 ", $	-   
+DISCONTINUED,ROCKWELL,1771-IK,,1771 ENCODER DIGITAL INPUT,MIGRATE TO RA LOGIX,,,10,1,2,0,0,0,0,1," $	2,798 "," $	27,977 "," $	2,798 "," $	5,595 ", $	-   , $	-   , $	-   , $	-   ," $	2,798 "
+DISCONTINUED,ROCKWELL,1771-P4S,,1771 POWER SUPPLY,MIGRATE TO RA LOGIX,,,10,1,0,0,0,0,1,0," $	3,176 "," $	31,761 "," $	3,176 ", $	-   , $	-   , $	-   , $	-   ," $	3,176 ", $	-   
+ACTIVE MATURE,ROCKWELL,1783-BMS06SGL,,STRATIX 5700  6 PORT MANAGED SWITCH,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	1,640 "," $	1,640 "," $	1,640 ", $	-   , $	-   , $	-   , $	-   ," $	1,640 ", $	-   
+ACTIVE MATURE,ROCKWELL,1783-BMS06TA,,STRATIX 5700  6 PORT MANAGED SWITCH,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	1,640 "," $	1,640 "," $	1,640 ", $	-   , $	-   , $	-   , $	-   ," $	1,640 ", $	-   
+ACTIVE MATURE,ROCKWELL,1783-BMS06TL,,STRATIX 5700  6 PORT MANAGED SWITCH,NOT AVAILABLE,,,9,1,0,0,0,0,1,0," $	1,314 "," $	11,830 "," $	1,314 ", $	-   , $	-   , $	-   , $	-   ," $	1,314 ", $	-   
+ACTIVE MATURE,ROCKWELL,1783-BMS10CA,,STRATIX 5700  10 PORT MANAGED SWITCH,NOT AVAILABLE,,,3,1,0,0,0,0,1,0," $	2,379 "," $	7,136 "," $	2,379 ", $	-   , $	-   , $	-   , $	-   ," $	2,379 ", $	-   
+ACTIVE MATURE,ROCKWELL,1783-BMS10CGP,,STRATIX 5700  10 PORT MANAGED SWITCH,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	3,017 "," $	3,017 "," $	3,017 ", $	-   , $	-   , $	-   , $	-   ," $	3,017 ", $	-   
+ACTIVE MATURE,ROCKWELL,1783-BMS10CL,,STRATIX 5700  10 PORT MANAGED SWITCH,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	1,853 "," $	3,706 "," $	1,853 ", $	-   , $	-   , $	-   , $	-   ," $	1,853 ", $	-   
+ACTIVE MATURE,ROCKWELL,1783-BMS20CA,,STRATIX 5700  20 PORT MANAGED SWITCH,NOT AVAILABLE,,,6,1,0,0,0,0,1,0," $	3,981 "," $	23,886 "," $	3,981 ", $	-   , $	-   , $	-   , $	-   ," $	3,981 ", $	-   
+ACTIVE MATURE,ROCKWELL,1783-BMS20CGN,,STRATIX 5700  20 PORT MANAGED SWITCH,NOT AVAILABLE,,,13,1,0,0,0,0,1,0," $	5,521 "," $	71,770 "," $	5,521 ", $	-   , $	-   , $	-   , $	-   ," $	5,521 ", $	-   
+ACTIVE MATURE,ROCKWELL,1783-BMS20CGP,,STRATIX 5700  20 PORT MANAGED SWITCH,NOT AVAILABLE,,,5,1,0,0,0,0,1,0," $	4,451 "," $	22,254 "," $	4,451 ", $	-   , $	-   , $	-   , $	-   ," $	4,451 ", $	-   
+DISCONTINUED,ROCKWELL,1783-EMS04T,,STRATIX 6000 4 PORT MANAGED SWITCH,1783-LMS5,,,1,1,0,0,0,0,1,0, $	983 , $	983 , $	983 , $	-   , $	-   , $	-   , $	-   , $	983 , $	-   
+DISCONTINUED,ROCKWELL,1783-US05T,,STRATIX 2000 5 PORT ETHERNET SWITCH,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	226 , $	452 , $	226 , $	-   , $	-   , $	-   , $	-   , $	226 , $	-   
+DISCONTINUED,ROCKWELL,1783-US08T,,STRATIX 2000 8 PORT ETHERNET SWITCH,NOT AVAILABLE,,,1,1,0,0,0,0,1,0, $	301 , $	301 , $	301 , $	-   , $	-   , $	-   , $	-   , $	301 , $	-   
+ACTIVE,ROCKWELL,1783-US5T,,STRATIX 2000 5T PORT UNMANAGED SWITCH,NOT AVAILABLE,,,9,1,0,1,0,0,0,0, $	191 ," $	1,715 ", $	191 , $	-   , $	191 , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1783-US8T,,STRATIX 2000 8T PORT UNMANAGED SWITCH,NOT AVAILABLE,,,32,2,1,1,0,0,0,0, $	261 ," $	8,361 ", $	523 , $	261 , $	261 , $	-   , $	-   , $	-   , $	-   
+ACTIVE MATURE,ROCKWELL,1794-ACN15,,FLEX CONTROLNET ADAPTER,"1794-AENT, 1794-AENTR",69005368,NR4S3D1,0,0,1,0,0,0,0,1," $	1,483 ", $	-   , $	-   ," $	1,483 ", $	-   , $	-   , $	-   , $	-   ," $	1,483 "
+END OF LIFE,ROCKWELL,1794-AENT,,"NETWORK ADAPTER,POINT I/O,ETHERNET/IP,63 MODULE CAPACITY ON POINTBUS,DIN MOUNTED",1794-AENTR,69007020,NR4S3B2,4,1,2,1,0,0,0,2," $	1,174 "," $	4,696 "," $	1,174 "," $	2,348 "," $	1,174 ", $	-   , $	-   , $	-   ," $	2,348 "
+ACTIVE,ROCKWELL,1794-IB16,,FLEX 16 POINT DIGITAL INPUT MODULE,NOT AVAILABLE,,,3,1,0,1,0,0,0,0, $	487 ," $	1,460 ", $	487 , $	-   , $	487 , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1794-IB16XOB16P,,FLEX 32 POINT DIGITAL COMBINATION MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	963 ," $	1,926 ", $	963 , $	-   , $	-   , $	-   , $	-   , $	963 , $	-   
+ACTIVE,ROCKWELL,1794-IB32,,FLEX 32 POINT DIGITAL INPUT MODULE,NOT AVAILABLE,,,0,0,1,0,0,0,0,1, $	786 , $	-   , $	-   , $	786 , $	-   , $	-   , $	-   , $	-   , $	786 
+ACTIVE,ROCKWELL,1794-IB8,,FLEX 8 POINT DIGITAL INPUT MODULE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0, $	269 , $	269 , $	269 , $	-   , $	-   , $	-   , $	-   , $	269 , $	-   
+ACTIVE,ROCKWELL,1794-IE8,,FLEX 8 POINT ANALOG INPUT MODULE,NOT AVAILABLE,69010489,C12D2S8,1,1,3,1,0,0,0,3," $	1,542 "," $	1,542 "," $	1,542 "," $	4,625 "," $	1,542 ", $	-   , $	-   , $	-   ," $	4,625 "
+ACTIVE,ROCKWELL,1794-IF4I,,FLEX 4 POINT ANALOG INPUT MODULE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	1,580 "," $	3,160 "," $	1,580 ", $	-   , $	-   , $	-   , $	-   ," $	1,580 ", $	-   
+ACTIVE,ROCKWELL,1794-IR8,,FLEX 8 POINT RTD INPUT MODULE,NOT AVAILABLE,69005372,C12D1S17,0,0,2,0,0,0,0,2," $	2,421 ", $	-   , $	-   ," $	4,841 ", $	-   , $	-   , $	-   , $	-   ," $	4,841 "
+ACTIVE,ROCKWELL,1794-OB16,,FLEX 16 POINT DIGITAL OUTPUT MODULE,NOT AVAILABLE,,,3,1,0,1,0,0,0,0, $	692 ," $	2,075 ", $	692 , $	-   , $	692 , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,1794-OB32P,,FLEX 32 POINT DIGITAL OUTPUT MODULE,NOT AVAILABLE,,,0,0,2,0,0,0,0,2, $	889 , $	-   , $	-   ," $	1,779 ", $	-   , $	-   , $	-   , $	-   ," $	1,779 "
+ACTIVE,ROCKWELL,1794-OB8,,FLEX 8 POINT DIGITAL OUTPUT MODULE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0, $	283 , $	283 , $	283 , $	-   , $	-   , $	-   , $	-   , $	283 , $	-   
+ACTIVE,ROCKWELL,1794-OE4,,FLEX 4 POINT ANALOG OUTPUT MODULE,NOT AVAILABLE,,,0,0,1,0,0,0,0,1," $	1,389 ", $	-   , $	-   ," $	1,389 ", $	-   , $	-   , $	-   , $	-   ," $	1,389 "
+ACTIVE,ROCKWELL,1794-PS13,,FLEX POWER SUPPLY,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	331 , $	663 , $	331 , $	-   , $	-   , $	-   , $	-   , $	331 , $	-   
+ACTIVE,ROCKWELL,20-750-2262C-2R,,POWERFLEX 750 24V DC IO OPTION MODULE,NOT AVAILABLE,,,42,2,4,1,0,0,0,3, $	408 ," $	17,150 ", $	817 ," $	1,633 ", $	408 , $	-   , $	-   , $	-   ," $	1,225 "
+DISCONTINUED,ROCKWELL,20-750-C4-C770D740,,"PF750 KIT,CONV,400V 770A,480V 740A",20-750-C5-C770D740,,,2,1,0,0,0,0,1,0," $	10,500 "," $	21,000 "," $	10,500 ", $	-   , $	-   , $	-   , $	-   ," $	10,500 ", $	-   
+DISCONTINUED,ROCKWELL,20-750-C5-C770D740,,"PF750,FR8,CONVERTER,400V 770A,480V 740A",20-750-C6-C770D740,,,3,1,1,0,0,0,0,0," $	10,765 "," $	32,295 "," $	10,765 "," $	10,765 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,20-750-DENC-1,,POWERFLEX 750 DUAL ENCODER OPTION MODULE,NOT AVAILABLE,,,27,2,2,0,0,0,0,0, $	460 ," $	12,428 ", $	921 , $	921 , $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,20-750-ENC-1,,POWERFLEX 750 ENCODER OPTION MODULE,NOT AVAILABLE,,,15,1,3,0,0,0,0,2, $	243 ," $	3,642 ", $	243 , $	728 , $	-   , $	-   , $	-   , $	-   , $	486 
+ACTIVE,ROCKWELL,20-750-I1B-C650D617,,POWERFLEX 750 REPLACEMENT INVERTER,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	67,700 "," $	135,400 "," $	67,700 ", $	-   , $	-   , $	-   , $	-   ," $	67,700 ", $	-   
+ACTIVE,ROCKWELL,20-750-I2B-C770D740,,POWERFLEX 750 INVERTER ASSEMBLY,NOT AVAILABLE,,,2,1,1,0,0,0,0,0," $	78,400 "," $	156,800 "," $	78,400 "," $	78,400 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,20-750-S,,POWERFLEX 750 SAFE TORQUE-OFF OPT MODULE,NOT AVAILABLE,,,30,2,0,0,0,0,2,0, $	205 ," $	6,161 ", $	411 , $	-   , $	-   , $	-   , $	-   , $	411 , $	-   
+ACTIVE,ROCKWELL,20-750-S1,,POWERFLEX 750 SAFE SPEED MON OPT MODULE,NOT AVAILABLE,,,10,1,1,0,0,0,0,0," $	1,178 "," $	11,779 "," $	1,178 "," $	1,178 ", $	-   , $	-   , $	-   , $	-   , $	-   
+DISCONTINUED,ROCKWELL,2090-UCSR-A300,,ACTIVE SHUNT REGULATOR,KINETIX 5500 OR 350 OR 300,,,1,1,2,0,0,0,0,1, $	773 , $	773 , $	773 ," $	1,547 ", $	-   , $	-   , $	-   , $	-   , $	773 
+ACTIVE MATURE,ROCKWELL,2090-UXLF-123,,ULTRA SERIES 23A AC LINE FILTER,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	344 , $	688 , $	344 , $	-   , $	-   , $	-   , $	-   , $	344 , $	-   
+ACTIVE MATURE,ROCKWELL,2094-BC07-M05-M,,KINETIX 6200/6500 INTEGRATED MODULE,NOT APPLICABLE,,,4,1,0,0,0,0,1,0," $	8,113 "," $	32,452 "," $	8,113 ", $	-   , $	-   , $	-   , $	-   ," $	8,113 ", $	-   
+ACTIVE MATURE,ROCKWELL,2094-BM03-M,,KINETIX 6200/6500 POWER MODULE,NOT APPLICABLE,,,6,1,1,0,0,0,0,0," $	3,438 "," $	20,628 "," $	3,438 "," $	3,438 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE MATURE,ROCKWELL,2094-EN02D-M01-S0,,KINETIX 6200/6500 CONTROL MODULE,NOT APPLICABLE,,,10,1,1,0,0,0,0,0," $	1,472 "," $	14,716 "," $	1,472 "," $	1,472 ", $	-   , $	-   , $	-   , $	-   , $	-   
+END OF LIFE,ROCKWELL,2097-V31PR2-LM,,KINETIX 350 800W SERVO DRIVE,NOT AVAILABLE,69007632,NR3S11D3,3,1,2,0,0,0,0,1," $	1,742 "," $	5,226 "," $	1,742 "," $	3,484 ", $	-   , $	-   , $	-   , $	-   ," $	1,742 "
+END OF LIFE,ROCKWELL,2097-V33PR5-LM,,KINETIX 350 2.0KW SERVO DRIVE,NOT AVAILABLE,,,1,1,1,0,0,0,0,0," $	2,080 "," $	2,080 "," $	2,080 "," $	2,080 ", $	-   , $	-   , $	-   , $	-   , $	-   
+END OF LIFE,ROCKWELL,2097-V34PR3-LM,,KINETIX 350 1.0KW SERVO DRIVE,NOT AVAILABLE,,,12,1,0,0,0,0,1,0," $	1,742 "," $	20,904 "," $	1,742 ", $	-   , $	-   , $	-   , $	-   ," $	1,742 ", $	-   
+DISCONTINUED,ROCKWELL,2098-DSD-020,,ULTRA 3000 2KW SERVO DRIVE,K3X0/K5500,69007226,NR3S11D3,2,1,2,0,0,0,0,1," $	2,951 "," $	5,902 "," $	2,951 "," $	5,902 ", $	-   , $	-   , $	-   , $	-   ," $	2,951 "
+DISCONTINUED,ROCKWELL,2098-DSD-HV100,,ULTRA 3000 SERVO DRIVE,K3X0/K5500,,,1,1,1,0,0,0,0,0," $	4,936 "," $	4,936 "," $	4,936 "," $	4,936 ", $	-   , $	-   , $	-   , $	-   , $	-   
+END OF LIFE,ROCKWELL,20AD011A0AYNANC0,,POWERFLEX 70 AC DRIVE 11 A AT 7.5 HP 20A,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	2,851 "," $	5,701 "," $	2,851 ", $	-   , $	-   , $	-   , $	-   ," $	2,851 ", $	-   
+END OF LIFE,ROCKWELL,20AD014A0AYNANC0,,POWERFLEX 70 AC DRIVE 14 A AT 10 HP 20A,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	3,448 "," $	6,896 "," $	3,448 ", $	-   , $	-   , $	-   , $	-   ," $	3,448 ", $	-   
+END OF LIFE,ROCKWELL,20AD014A3AYNANC0,,POWERFLEX 70 AC DRIVE 14 A AT 10 HP 20A,20AD014ANAYNANC0 AND 20-HIM-A6,,,1,1,0,0,0,0,1,0," $	3,894 "," $	3,894 "," $	3,894 ", $	-   , $	-   , $	-   , $	-   ," $	3,894 ", $	-   
+END OF LIFE,ROCKWELL,20AD022A0AYNANC0,,POWERFLEX 70 AC DRIVE 22 A AT 15 HP 20A,NOT AVAILABLE,,,0,0,1,0,0,0,0,1," $	4,201 ", $	-   , $	-   ," $	4,201 ", $	-   , $	-   , $	-   , $	-   ," $	4,201 "
+END OF LIFE,ROCKWELL,20AD027A0AYNANC0,,POWERFLEX 70 AC DRIVE 27 A AT 20 HP 20A,NOT AVAILABLE,,,4,1,1,0,0,0,0,0," $	5,084 "," $	20,338 "," $	5,084 "," $	5,084 ", $	-   , $	-   , $	-   , $	-   , $	-   
+END OF LIFE,ROCKWELL,20AD034A3AYNANC0,,POWERFLEX 70 AC DRIVE 34 A AT 25 HP 20A,20AD034ANAYNANC0 AND 20-HIM-A6,,,0,0,1,0,0,0,0,1," $	6,809 ", $	-   , $	-   ," $	6,809 ", $	-   , $	-   , $	-   , $	-   ," $	6,809 "
+END OF LIFE,ROCKWELL,20AD052A0AYNACC0,,POWERFLEX 70 AC DRIVE 52 A AT 40 HP 20A,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	10,630 "," $	10,630 "," $	10,630 ", $	-   , $	-   , $	-   , $	-   ," $	10,630 ", $	-   
+END OF LIFE,ROCKWELL,20AD052A0AYNANC0,,POWERFLEX 70 AC DRIVE 52 A AT 40 HP 20A,NOT AVAILABLE,,,5,1,1,0,0,0,0,0," $	9,571 "," $	47,857 "," $	9,571 "," $	9,571 ", $	-   , $	-   , $	-   , $	-   , $	-   
+END OF LIFE,ROCKWELL,20AD8P0A0AYNANC0,,POWERFLEX 70 AC DRIVE 8 A AT 5 HP 20A,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	2,500 "," $	2,500 "," $	2,500 ", $	-   , $	-   , $	-   , $	-   ," $	2,500 ", $	-   
+END OF LIFE,ROCKWELL,20AD8P0A0AYNNNC0,,POWERFLEX 70 AC DRIVE 8 A AT 5 HP 20A,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	2,338 "," $	2,338 "," $	2,338 ", $	-   , $	-   , $	-   , $	-   ," $	2,338 ", $	-   
+ACTIVE,ROCKWELL,20B-ENC-1,,POWERFLEX 700 ENCODER INTERFACE KIT,NOT AVAILABLE,,,0,0,1,0,0,0,0,1, $	342 , $	-   , $	-   , $	342 , $	-   , $	-   , $	-   , $	-   , $	342 
+ACTIVE,ROCKWELL,20F11ND022AA0NNNNN,,POWERFLEX AIR COOLED 753 AC DRIVE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	3,068 "," $	6,136 "," $	3,068 ", $	-   , $	-   , $	-   , $	-   ," $	3,068 ", $	-   
+ACTIVE,ROCKWELL,20F11ND027AA0NNNNN,,POWERFLEX AIR COOLED 753 AC DRIVE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	3,729 "," $	3,729 "," $	3,729 ", $	-   , $	-   , $	-   , $	-   ," $	3,729 ", $	-   
+ACTIVE,ROCKWELL,20F11ND034AA0NNNNN,,POWERFLEX AIR COOLED 753 AC DRIVE,NOT AVAILABLE,,,3,1,0,0,0,0,1,0," $	4,673 "," $	14,019 "," $	4,673 ", $	-   , $	-   , $	-   , $	-   ," $	4,673 ", $	-   
+ACTIVE,ROCKWELL,20F11ND040AA0NNNNN,,POWERFLEX AIR COOLED 753 AC DRIVE,NOT AVAILABLE,,,4,1,0,0,0,0,1,0," $	5,846 "," $	23,384 "," $	5,846 ", $	-   , $	-   , $	-   , $	-   ," $	5,846 ", $	-   
+ACTIVE,ROCKWELL,20F11ND052AA0NNNNN,,POWERFLEX AIR COOLED 753 AC DRIVE,NOT AVAILABLE,,,14,1,0,0,0,0,1,0," $	7,031 "," $	98,436 "," $	7,031 ", $	-   , $	-   , $	-   , $	-   ," $	7,031 ", $	-   
+ACTIVE,ROCKWELL,20F11ND065AA0NNNNN,,POWERFLEX AIR COOLED 753 AC DRIVE,NOT AVAILABLE,,,5,1,0,0,0,0,1,0," $	8,858 "," $	44,292 "," $	8,858 ", $	-   , $	-   , $	-   , $	-   ," $	8,858 ", $	-   
+ACTIVE,ROCKWELL,20F11ND077AA0NNNNN,,POWERFLEX AIR COOLED 753 AC DRIVE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	10,624 "," $	10,624 "," $	10,624 ", $	-   , $	-   , $	-   , $	-   ," $	10,624 ", $	-   
+ACTIVE,ROCKWELL,20F11ND2P1AA0NNNNN,,POWERFLEX AIR COOLED 753 AC DRIVE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	1,821 "," $	1,821 "," $	1,821 ", $	-   , $	-   , $	-   , $	-   ," $	1,821 ", $	-   
+ACTIVE,ROCKWELL,20F1AND125AA0NNNNN,,POWERFLEX AIR COOLED 753 AC DRIVE,NOT AVAILABLE,,,1,1,1,0,0,0,0,0," $	15,421 "," $	15,421 "," $	15,421 "," $	15,421 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,20G11ND011AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,69003003,,4,1,2,0,0,0,0,1," $	3,941 "," $	15,766 "," $	3,941 "," $	7,883 ", $	-   , $	-   , $	-   , $	-   ," $	3,941 "
+ACTIVE,ROCKWELL,20G11ND011JA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,9,1,0,0,0,0,1,0," $	3,941 "," $	35,473 "," $	3,941 ", $	-   , $	-   , $	-   , $	-   ," $	3,941 ", $	-   
+ACTIVE,ROCKWELL,20G11ND014AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,24,2,0,1,0,0,1,0," $	4,012 "," $	96,288 "," $	8,024 ", $	-   ," $	4,012 ", $	-   , $	-   ," $	4,012 ", $	-   
+ACTIVE,ROCKWELL,20G11ND022AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,5,1,1,0,0,0,0,0," $	4,647 "," $	23,237 "," $	4,647 "," $	4,647 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,20G11ND027AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,24,2,0,1,0,0,1,0," $	5,360 "," $	128,641 "," $	10,720 ", $	-   ," $	5,360 ", $	-   , $	-   ," $	5,360 ", $	-   
+ACTIVE,ROCKWELL,20G11ND034AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,10,1,1,0,0,0,0,0," $	6,432 "," $	64,320 "," $	6,432 "," $	6,432 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,20G11ND040AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,5,1,0,0,0,0,1,0," $	7,754 "," $	38,772 "," $	7,754 ", $	-   , $	-   , $	-   , $	-   ," $	7,754 ", $	-   
+ACTIVE,ROCKWELL,20G11ND065AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,10,1,0,0,0,0,1,0," $	11,137 "," $	111,373 "," $	11,137 ", $	-   , $	-   , $	-   , $	-   ," $	11,137 ", $	-   
+ACTIVE,ROCKWELL,20G11ND065JA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,9,1,0,0,0,0,1,0," $	11,137 "," $	100,236 "," $	11,137 ", $	-   , $	-   , $	-   , $	-   ," $	11,137 ", $	-   
+ACTIVE,ROCKWELL,20G11ND077AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	13,134 "," $	13,134 "," $	13,134 ", $	-   , $	-   , $	-   , $	-   ," $	13,134 ", $	-   
+ACTIVE,ROCKWELL,20G11ND2P1AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,2,1,1,0,0,0,0,0," $	3,242 "," $	6,483 "," $	3,242 "," $	3,242 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,20G11ND2P1JA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	3,242 "," $	6,483 "," $	3,242 ", $	-   , $	-   , $	-   , $	-   ," $	3,242 ", $	-   
+ACTIVE,ROCKWELL,20G11ND5P0AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,4,1,1,0,0,0,0,0," $	3,242 "," $	12,967 "," $	3,242 "," $	3,242 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,20G11ND8P0AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,2,1,1,0,0,0,0,0," $	3,492 "," $	6,984 "," $	3,492 "," $	3,492 ", $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,20G11RD2P1AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,69007045,NR1S8C2,12,1,2,1,0,0,0,2," $	1,810 "," $	21,722 "," $	1,810 "," $	3,620 "," $	1,810 ", $	-   , $	-   , $	-   ," $	3,620 "
+ACTIVE,ROCKWELL,20G1AND156AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	20,333 "," $	20,333 "," $	20,333 ", $	-   , $	-   , $	-   , $	-   ," $	20,333 ", $	-   
+ACTIVE,ROCKWELL,20G1AND156AN0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	19,363 "," $	19,363 "," $	19,363 ", $	-   , $	-   , $	-   , $	-   ," $	19,363 ", $	-   
+ACTIVE,ROCKWELL,20G1AND248AA0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	29,403 "," $	58,806 "," $	29,403 ", $	-   , $	-   , $	-   , $	-   ," $	29,403 ", $	-   
+ACTIVE,ROCKWELL,20G1AND415AN0NNNNN,,POWERFLEX AIR COOLED 755 AC DRIVE,NOT AVAILABLE,,,2,1,1,0,0,0,0,0," $	50,741 "," $	101,482 "," $	50,741 "," $	50,741 ", $	-   , $	-   , $	-   , $	-   , $	-   
+END OF LIFE,ROCKWELL,20-HIM-A3,,"POWERFLEX ARCHITECTURE CLASS HIM, KEYPAD",NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	349 , $	697 , $	349 , $	-   , $	-   , $	-   , $	-   , $	349 , $	-   
+ACTIVE,ROCKWELL,20-HIM-A6,,POWERFLEX ARCHITECTURE CLASS HIM,NOT AVAILABLE,,,51,2,1,1,0,0,0,0, $	291 ," $	14,848 ", $	582 , $	291 , $	291 , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,2198-DB08-F,,KINETIX 5500 8A LINE FILTER,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	273 , $	546 , $	273 , $	-   , $	-   , $	-   , $	-   , $	273 , $	-   
+ACTIVE,ROCKWELL,2198-DB80-F,,KINETIX 5700 80A LINE FILTER,NOT AVAILABLE,,,0,0,0,1,0,0,0,1," $	1,046 ", $	-   , $	-   , $	-   ," $	1,046 ", $	-   , $	-   , $	-   ," $	1,046 "
+ACTIVE,ROCKWELL,2198-H003-ERS,,KINETIX 5500 2.5 AMP SERVO DRIVE,NOT AVAILABLE,,,1,1,0,1,0,0,0,0," $	1,885 "," $	1,885 "," $	1,885 ", $	-   ," $	1,885 ", $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,2198-H008-ERS,,KINETIX 5500 6.3 AMP SERVO DRIVE,NOT AVAILABLE,,,22,2,1,1,0,0,0,0," $	2,084 "," $	45,857 "," $	4,169 "," $	2,084 "," $	2,084 ", $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,2198-H025-ERS,,KINETIX 5500 20 AMP SERVO DRIVE,NOT AVAILABLE,,,1,1,1,1,0,0,0,1," $	2,471 "," $	2,471 "," $	2,471 "," $	2,471 "," $	2,471 ", $	-   , $	-   , $	-   ," $	2,471 "
+ACTIVE,ROCKWELL,2198-H040-ERS,,KINETIX 5500 SERVO DRIVE,NOT AVAILABLE,,,1,1,0,1,0,0,0,0," $	2,746 "," $	2,746 "," $	2,746 ", $	-   ," $	2,746 ", $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,2198-H070-ERS,,KINETIX 5500 SERVO DRIVE,NOT AVAILABLE,69007983,PR2S3D3,0,0,1,1,0,0,0,2," $	3,183 ", $	-   , $	-   ," $	3,183 "," $	3,183 ", $	-   , $	-   , $	-   ," $	6,366 "
+ACTIVE,ROCKWELL,2198-K57CK-D15M,,KINETIX 5700  FEEDBACK CONNECTOR KIT,NOT AVAILABLE,,,0,0,0,1,0,0,0,1, $	122 , $	-   , $	-   , $	-   , $	122 , $	-   , $	-   , $	-   , $	122 
+ACTIVE,ROCKWELL,2198-P141,,KINETIX 5700 DC BUS SUPPLY,NOT AVAILABLE,,,3,1,0,0,0,0,1,0," $	3,211 "," $	9,633 "," $	3,211 ", $	-   , $	-   , $	-   , $	-   ," $	3,211 ", $	-   
+ACTIVE,ROCKWELL,2198-S130-ERS3,,KINETIX 5700 SINGLE AXIS INVERTER,NOT AVAILABLE,,,6,1,0,0,0,0,1,0," $	5,663 "," $	33,978 "," $	5,663 ", $	-   , $	-   , $	-   , $	-   ," $	5,663 ", $	-   
+ACTIVE,ROCKWELL,21G1ABD740AN0NNNNN-HD-L1-P5,,POWERFLEX AIR COOLED 755 PACKAGED DRIVE,NOT AVAILABLE,,,0,0,1,0,0,0,0,1," $	137,242 ", $	-   , $	-   ," $	137,242 ", $	-   , $	-   , $	-   , $	-   ," $	137,242 "
+END OF LIFE,ROCKWELL,22B-D2P3N104,,POWERFLEX 40- 0.75 KW (1 HP) AC DRIVE,POWERFLEX 525,,,6,1,0,0,0,0,1,0," $	1,510 "," $	9,059 "," $	1,510 ", $	-   , $	-   , $	-   , $	-   ," $	1,510 ", $	-   
+END OF LIFE,ROCKWELL,22B-D6P0N104,,POWERFLEX 40- 2.2 KW (3 HP) AC DRIVE,POWERFLEX 525,,,1,1,0,0,0,0,1,0," $	2,073 "," $	2,073 "," $	2,073 ", $	-   , $	-   , $	-   , $	-   ," $	2,073 ", $	-   
+ACTIVE,ROCKWELL,22C-D030N103,,POWERFLEX 400- 15 KW (20 HP) AC DRIVE,NOT AVAILABLE,,,8,1,0,0,0,0,1,0," $	3,810 "," $	30,480 "," $	3,810 ", $	-   , $	-   , $	-   , $	-   ," $	3,810 ", $	-   
+END OF LIFE,ROCKWELL,22D-D2P3N104,,POWERFLEX 40P- 0.75 KW (1 HP) AC DRIVE,POWERFLEX 525,,,2,1,0,0,0,0,1,0," $	2,022 "," $	4,044 "," $	2,022 ", $	-   , $	-   , $	-   , $	-   ," $	2,022 ", $	-   
+ACTIVE,ROCKWELL,22F-D018N104,,POWERFLEX 4M- 7.5 KW (10 HP) AC DRIVE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	1,669 "," $	3,339 "," $	1,669 ", $	-   , $	-   , $	-   , $	-   ," $	1,669 ", $	-   
+ACTIVE,ROCKWELL,22F-D2P5N103,,POWERFLEX 4M- 0.75 KW (1 HP) AC DRIVE,NOT AVAILABLE,,,4,1,1,0,0,0,0,0, $	585 ," $	2,340 ", $	585 , $	585 , $	-   , $	-   , $	-   , $	-   , $	-   
+ACTIVE,ROCKWELL,22-HIM-A3,,POWERFLEX HANDHELD HIM,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	293 , $	585 , $	293 , $	-   , $	-   , $	-   , $	-   , $	293 , $	-   
+ACTIVE,ROCKWELL,22-HIM-C2S,,POWERFLEX IP66 UL-NEMA TYPE 4X-12 HIM,NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	498 , $	996 , $	498 , $	-   , $	-   , $	-   , $	-   , $	498 , $	-   
+ACTIVE,ROCKWELL,25A-D010N114,,POWERFLEX 523 4KW (5HP) AC DRIVE,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	1,368 "," $	2,736 "," $	1,368 ", $	-   , $	-   , $	-   , $	-   ," $	1,368 ", $	-   
+ACTIVE,ROCKWELL,25B-D010N104,,POWERFLEX 525 4KW (5HP) AC DRIVE,NOT AVAILABLE,,,1,1,2,1,0,0,0,2," $	1,644 "," $	1,644 "," $	1,644 "," $	3,288 "," $	1,644 ", $	-   , $	-   , $	-   ," $	3,288 "
+ACTIVE,ROCKWELL,25B-D4P0N104,,POWERFLEX 525 1.5KW (2HP) AC DRIVE,NOT AVAILABLE,,,3,1,2,0,0,0,0,1," $	1,135 "," $	3,405 "," $	1,135 "," $	2,270 ", $	-   , $	-   , $	-   , $	-   ," $	1,135 "
+DISCONTINUED,ROCKWELL,2711C-T3M,,PANELVIEW COMP C300 GRAPHIC TERMINAL,PV800 T4T,,,4,1,0,0,0,0,1,0, $	361 ," $	1,444 ", $	361 , $	-   , $	-   , $	-   , $	-   , $	361 , $	-   
+DISCONTINUED,ROCKWELL,2711C-T6T,,PANELVIEW COMP C600 GRAPHIC TERMINAL,2711R-T7T,,,0,0,1,0,0,0,0,1, $	876 , $	-   , $	-   , $	876 , $	-   , $	-   , $	-   , $	-   , $	876 
+DISCONTINUED,ROCKWELL,2711P-B10C4A8,,PANELVIEW PLUS TERMINAL,2711P-B10C22A9P,,,13,1,0,0,0,0,1,0," $	10,752 "," $	139,782 "," $	10,752 ", $	-   , $	-   , $	-   , $	-   ," $	10,752 ", $	-   
+DISCONTINUED,ROCKWELL,2711P-B10C4D8,,PANELVIEW PLUS TERMINAL,2711P-B10C22D9P,,,0,0,1,0,0,0,0,1," $	10,130 ", $	-   , $	-   ," $	10,130 ", $	-   , $	-   , $	-   , $	-   ," $	10,130 "
+DISCONTINUED,ROCKWELL,2711P-B4C20D8,,PANELVIEW PLUS 6 GRAPHIC TERMINAL,NOT AVAILABLE,,,0,0,1,0,0,0,0,1," $	1,994 ", $	-   , $	-   ," $	1,994 ", $	-   , $	-   , $	-   , $	-   ," $	1,994 "
+DISCONTINUED,ROCKWELL,2711P-B7C4D8,,PANELVIEW PLUS TERMINAL,2711P-B7C22D9P,,,1,1,0,0,0,0,1,0," $	7,116 "," $	7,116 "," $	7,116 ", $	-   , $	-   , $	-   , $	-   ," $	7,116 ", $	-   
+DISCONTINUED,ROCKWELL,2711P-RDT12H,,PANELVIEW PLUS DISPLAY MODULE,NOT AVAILABLE,,,0,0,1,0,0,0,0,1," $	6,322 ", $	-   , $	-   ," $	6,322 ", $	-   , $	-   , $	-   , $	-   ," $	6,322 "
+END OF LIFE,ROCKWELL,2711P-RP8DK,,PANELVIEW PLUS 6 700-1500 LOGIC MODULE,PVP 7 STANDARD OR PERFORMANCE,,,0,0,1,0,0,0,0,1," $	3,852 ", $	-   , $	-   ," $	3,852 ", $	-   , $	-   , $	-   , $	-   ," $	3,852 "
+ACTIVE,ROCKWELL,2711P-T10C22D9P,,PANELVIEW PLUS 7 GRAPHIC TERMINAL,NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	5,184 "," $	5,184 "," $	5,184 ", $	-   , $	-   , $	-   , $	-   ," $	5,184 ", $	-   
+DISCONTINUED,ROCKWELL,2711P-T10C4A8,,PANELVIEW PLUS TERMINAL,2711P-T10C22A9P,,,4,1,0,0,0,0,1,0," $	10,058 "," $	40,232 "," $	10,058 ", $	-   , $	-   , $	-   , $	-   ," $	10,058 ", $	-   
+DISCONTINUED,ROCKWELL,2711P-T10C4D8,,PANELVIEW PLUS TERMINAL,2711P-T10C22D9P,,,14,1,0,0,0,0,1,0," $	8,638 "," $	120,930 "," $	8,638 ", $	-   , $	-   , $	-   , $	-   ," $	8,638 ", $	-   
+DISCONTINUED,ROCKWELL,2711P-T12C4D8,,PANELVIEW PLUS TERMINAL,2711P-T12W22D9P,,,8,1,0,0,0,0,1,0," $	10,807 "," $	86,458 "," $	10,807 ", $	-   , $	-   , $	-   , $	-   ," $	10,807 ", $	-   
+ACTIVE,ROCKWELL,2711P-T12W22D9P,,PANELVIEW PLUS 7 GRAPHIC TERMINAL,NOT AVAILABLE,,,5,1,0,1,0,0,0,0," $	6,479 "," $	32,394 "," $	6,479 ", $	-   ," $	6,479 ", $	-   , $	-   , $	-   , $	-   
+DISCONTINUED,ROCKWELL,2711P-T15C4A8,,PANELVIEW PLUS TERMINAL,2711P-T15C22A9P,,,4,1,0,0,0,0,1,0," $	12,980 "," $	51,919 "," $	12,980 ", $	-   , $	-   , $	-   , $	-   ," $	12,980 ", $	-   
+DISCONTINUED,ROCKWELL,2711P-T15C4D8,,PANELVIEW PLUS TERMINAL,2711P-T15C22D9P,,,6,1,0,0,0,0,1,0," $	12,432 "," $	74,589 "," $	12,432 ", $	-   , $	-   , $	-   , $	-   ," $	12,432 ", $	-   
+ACTIVE,ROCKWELL,2711P-T4W22D8S,,"PANEL,DISPLAY, MONITOR SIZE 4.3 , 24 VDC",NOT AVAILABLE,,,2,1,0,0,0,0,1,0, $	979 ," $	1,957 ", $	979 , $	-   , $	-   , $	-   , $	-   , $	979 , $	-   
+DISCONTINUED,ROCKWELL,2711P-T6C20D8,,PANELVIEW PLUS 6 6 COLOR TOUCH DC,NOT AVAILABLE,,,1,1,1,0,0,0,0,0," $	3,045 "," $	3,045 "," $	3,045 "," $	3,045 ", $	-   , $	-   , $	-   , $	-   , $	-   
+DISCONTINUED,ROCKWELL,2711P-T6M20D8,,PANELVIEW PLUS 6 6 GRAYSCALE TOUCH DC,NOT AVAILABLE,,,2,1,0,0,0,0,1,0," $	2,077 "," $	4,154 "," $	2,077 ", $	-   , $	-   , $	-   , $	-   ," $	2,077 ", $	-   
+DISCONTINUED,ROCKWELL,2711P-T7C4A8,,PANELVIEW PLUS TERMINAL,2711P-T7C22A9P,,,1,1,0,0,0,0,1,0," $	7,059 "," $	7,059 "," $	7,059 ", $	-   , $	-   , $	-   , $	-   ," $	7,059 ", $	-   
+DISCONTINUED,ROCKWELL,2711P-T7C4D8,,PANELVIEW PLUS TERMINAL,2711P-T7C22D9P,,,2,1,0,0,0,0,1,0," $	6,479 "," $	12,958 "," $	6,479 ", $	-   , $	-   , $	-   , $	-   ," $	6,479 ", $	-   
+DISCONTINUED,ROCKWELL,6186M-15PT,,"INDUSTRIAL MONITOR, PERFORMANCE",NOT AVAILABLE,,,1,1,0,0,0,0,1,0," $	5,078 "," $	5,078 "," $	5,078 ", $	-   , $	-   , $	-   , $	-   ," $	5,078 ", $	-   
+,,,,TOTALS:,,,,3099,259,162,26,0,0,163,92,," $	6,270,781 "," $	1,020,020 "," $	593,905 "," $	66,277 ", $	-   , $	-   ," $	646,227 "," $	286,390 "

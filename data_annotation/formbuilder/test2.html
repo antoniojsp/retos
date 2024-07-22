@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    form div {
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Form Builder Test</h1>
+<div id="form-container"></div>
+
+<script>
+class FormBuilder {
+    constructor() {
+        this.fields = [];
+    }
+
+    addField(type, label, options = '') {
+        this.fields.push({ type, label, options });
+    }
+
+    removeField(index) {
+        if (index >= 0 && index < this.fields.length) {
+            this.fields.splice(index, 1);
+        }
+    }
+
+    generateHTML() {
+        let formHTML = '<form>';
+        this.fields.forEach(field => {
+            switch (field.type) {
+                case 'text':
+                    formHTML += `<label>${field.label}</label><input type="text" name="${field.label}"><br>`;
+                    break;
+                case 'select':
+                    formHTML += `<label>${field.label}</label><select name="${field.label}">`;
+                    field.options.split(',').forEach(option => {
+                        formHTML += `<option value="${option}">${option}</option>`;
+                    });
+                    formHTML += `</select><br>`;
+                    break;
+                case 'checkbox':
+                    formHTML += `<label>${field.label}</label><input type="checkbox" name="${field.label}"><br>`;
+                    break;
+            }
+        });
+        formHTML += '</form>';
+        return formHTML;
+    }
+
+    saveToCustomFormat() {
+        return this.fields.map(field => `${field.type}|${field.label}|${field.options}`).join('\n');
+    }
+
+    loadFromCustomFormat(customFormatString) {
+        this.fields = customFormatString.split('\n').map(line => {
+            const [type, label, options] = line.split('|');
+            return { type, label, options };
+        });
+    }
+}
+
+// Usage Example
+const formBuilder = new FormBuilder();
+formBuilder.addField('text', 'Namddde');
+formBuilder.addField('select', 'Country', 'USA,Canada,UK');
+formBuilder.addField('checkbox', 'Subscribe');
+formBuilder.addField('checkbox', 'df');
+formBuilder.addField('checkbox', 'dffdf');
+
+
+
+// Generate and display form HTML
+const formContainer = document.getElementById('form-container');
+formContainer.innerHTML = formBuilder.generateHTML();
+
+// Save form to custom format
+const savedFormat = formBuilder.saveToCustomFormat();
+console.log(savedFormat);
+
+// Load form from custom format
+formBuilder.loadFromCustomFormat(savedFormat);
+formContainer.innerHTML = formBuilder.generateHTML();
+</script>
+
+</body>
+</html>
