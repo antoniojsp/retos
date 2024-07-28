@@ -150,28 +150,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="D:\Downloads\Book_Sales.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="D:\Downloads\Chainmaille_by_Yael_– Customer_Data_(2023).csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="D:\Downloads\last60.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="D:\Downloads\produccion_acero.csv">
+        <entry key="\data_annotation\chianmaille_by_yael\Chainmaille_by_Yael_– Customer_Data_(2023).csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -179,13 +158,6 @@
           </value>
         </entry>
         <entry key="\data_annotation\last_60\last60_with_combined_categories.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data_annotation\patient_list\patient_list-_patient_list.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
