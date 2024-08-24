@@ -1,0 +1,16 @@
+<!-- app/templates/result.html -->
+{% extends "base.html" %}
+{% block content %}
+<h1>Game Result</h1>
+<p>Player's hand: {{ game.player.hand }} (Value: {{ game.player.hand_value() }})</p>
+<p>Dealer's hand: {{ game.dealer.hand }} (Value: {{ game.dealer.hand_value() }})</p>
+{% if game.resolve_game() == 'win' %}
+    <p>You win!</p>
+{% elif game.resolve_game() == 'lose' %}
+    <p>Dealer wins.</p>
+{% else %}
+    <p>It's a tie!</p>
+{% endif %}
+<a href="{{ url_for('main.index') }}">Play Again</a>
+{% endblock %}
+                 

@@ -25,7 +25,8 @@ def preprocess_and_analyze(df, numeric_columns):
     return df_processed
 
 data = {
-    "Date": ["2024-07-01", "2024-06-29", "nan"],
+    "Date": ["2024-07-01", "2024-06-29", "nan"]
+    ,
     "Revenue": ["$1,500.50", "nan", "$2,300"],
     "Expenses": ["$850.25", "$1,200", "nan"]
 }
