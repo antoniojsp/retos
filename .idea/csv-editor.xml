@@ -59,6 +59,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/data_annotation/chatbot/test1/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/data_annotation/cities_insight/Cities with the Best Work-Life Balance 2022.csv">
           <value>
             <Attribute>
@@ -81,6 +88,20 @@
           </value>
         </entry>
         <entry key="/data_annotation/last60/last60.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data_annotation/last_60/last60.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data_annotation/last_60/last60_with_combined_categories.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -144,6 +165,20 @@
           </value>
         </entry>
         <entry key="/data_annotation/top_200_followers/top_200_youtubers.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data_annotation/univer_uk/uk_universities.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data_annotation/youtubers/top_200_youtubers.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
