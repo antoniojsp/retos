@@ -185,6 +185,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data_annotation\achilles\correct_diabetes_pandas\diabetes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data_annotation\chianmaille_by_yael\Chainmaille_by_Yael_– Customer_Data_(2023).csv">
           <value>
             <Attribute>
