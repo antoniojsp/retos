@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Roof Area Calculator</title>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs-TZf18pOGm4jnsC_LfSb5AtCgeoBprE&libraries=places"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<style>
+  #map {
+    height: 500px;
+    width: 70%;
+    float: left;
+  }
+  #infoPanel {
+    width: 30%;
+    float: right;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+
+<input type="text" id="pac-input" placeholder="Enter your address">
+<div id="map"></div>
+<div id="infoPanel">
+  <h3>Roof Area:</h3>
+  <p id="area">0 sq ft</p>
+</div>
+
+<script>
+  let map;
+  let drawingManager;
+  let overlay;
+  let area = 0;
+
+  function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: { lat: 37.7749, lng: -122.4194 }, // Default location
+      zoom: 15
+    });
+
+    // Create the search box and link it to the UI element.
+    const input = document.getElementById("pac-input");
+    const searchBox = new google.maps.places.SearchBox(input);
+
+    // Bias the SearchBox results towards current map's viewport.
+    map.addListener("bounds_changed", () => {
+      searchBox.setBounds(map.getBounds());
+    });
+
+    searchBox.addListener("places_changed", () => {
+      const places = searchBox.getPlaces();
+
+      if (places.length === 0) {
+        return;
+      }
+
+      // For each place, get the icon, name and location.
+      const place = places[0];
+      if (!place.geometry) {
+        console.log("Returned place contains no geometry");
+        return;
+      }
+
+      // Center the map on the place
+      map.setCenter(place.geometry.location);
+      map.setZoom(19); // Zoom in closer for roof detail
+    });
+
+    // Initialize drawing manager
+    drawingManager = new google.maps.drawing.DrawingManager({
+      drawingMode: google.maps.drawing.OverlayType.POLYGON,
+      drawingControl: true,
+      drawingControlOptions: {
+        position: google.maps.ControlPosition.TOP_CENTER,
+        drawingModes: [
+          google.maps.drawing.OverlayType.POLYGON,
+        ],
+      },
+      polygonOptions: {
+        editable: true,
+        fillColor: '#00C853',
+        fillOpacity: 0.3,
+        strokeWeight: 2,
+        strokeColor: '#00C853'
+      }
+    });
+
+    drawingManager.setMap(map);
+
+    // Event listener for polygon creation or edit
+    google.maps.event.addListener(drawingManager, 'overlaycomplete', function(e) {
+      if (e.type === google.maps.drawing.OverlayType.POLYGON) {
+        if (overlay) {
+          overlay.setMap(null);
+        }
+        overlay = e.overlay;
+        calculateArea(overlay);
+
+        // Add an event listener to update the area when the polygon is edited
+        google.maps.event.addListener(overlay.getPath(), 'set_at', () => {
+          calculateArea(overlay);
+        });
+        google.maps.event.addListener(overlay.getPath(), 'insert_at', () => {
+          calculateArea(overlay);
+        });
+      }
+    });
+  }
+
+  function calculateArea(polygon) {
+    area = google.maps.geometry.spherical.computeArea(polygon.getPath());
+    document.getElementById("area").textContent = area.toFixed(2) + " sq ft";
+  }
+
+  // Initialize the map on page load
+  google.maps.event.addDomListener(window, 'load', initMap);
+</script>
+
+</body>
+</html>
