@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bubble Map Example</title>
+<style>
+#bubble-map {
+  position: relative; /* For positioning bubbles */
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+}
+
+/* Example styles for specific bubbles */
+#bubble1 {
+  background-color: lightblue;
+  top: 50px;
+  left: 100px;
+}
+
+#bubble2 {
+  background-color: lightgreen;
+  top: 150px;
+  left: 250px;
+}
+</style>
+</head>
+<body>
+
+<div id="bubble-map">
+  <div id="bubble1" class="bubble" data-url="wwww.google.com">Bubble 1</div>
+  <div id="bubble2" class="bubble" data-url="/page2">Bubble 2</div>
+</div>
+
+<script>
+const bubbles = document.querySelectorAll('.bubble');
+
+bubbles.forEach(bubble => {
+  bubble.addEventListener('click', () => {
+    const targetUrl = bubble.dataset.url;
+    window.location.href = targetUrl;
+  });
+});
+</script>
+
+</body>
+</html>
