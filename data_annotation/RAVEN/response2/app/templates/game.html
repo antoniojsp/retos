@@ -1,9 +1,0 @@
-<!-- app/templates/game.html -->
-{% extends "base.html" %}
-{% block content %}
-<h1>Blackjack Game</h1>
-<p>Player's hand: {{ game.player.hand }} (Value: {{ game.player.hand_value() }})</p>
-<p>Dealer's hand: {{ game.dealer.hand[:1] }} [?]</p>
-<a href="{{ url_for('main.hit') }}">Hit</a>
-<a href="{{ url_for('main.stand') }}">Stand</a>
-{% endblock %}
