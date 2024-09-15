@@ -11,7 +11,7 @@ def check_valid_string(string:list)->bool:
 
 def is_valid_after_delete(word:str, char_list:tuple) -> int:
     """
-    test if when the chars are delete, they form a valid string. Return its length
+    testing.js if when the chars are delete, they form a valid string. Return its length
     """
     result = list(word)
     i = 0

@@ -35,14 +35,14 @@ class TestCalculator(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-# test = [1, 2, 3, 4, 5]
-# print(sum(test))
-# print(sum(test)/len(test))
+# testing.js = [1, 2, 3, 4, 5]
+# print(sum(testing.js))
+# print(sum(testing.js)/len(testing.js))
 # odd = 0
 # even = 0
 # count_odd = 0
 # count_even = 0
-# for i in test:
+# for i in testing.js:
 #     if i % 2 ==0:
 #         even+=i
 #     else:

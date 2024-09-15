@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot World</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+
+    <style type="text/tailwindcss">
+        /* Use nested classes for better organization and readability */
+        .chat-container {
+            @apply flex flex-col justify-between h-screen;
+        }
+
+        .message-holder {
+            @apply overflow-y-auto m-4;
+            max-height: calc(100vh - 12rem); /* Adjust as needed */
+        }
+
+        .input-area {
+            @apply flex flex-row m-4;
+        }
+
+        .chat-input {
+            @apply flex-1 border rounded-md m-2 p-2 outline-none ring-2 border-transparent;
+            @apply ring-green-600 focus:ring-green-700; /* Enhanced focus style */
+        }
+
+        .send-button {
+            @apply m-2 bg-blue-500 p-2 rounded-md text-white;
+            @apply hover:bg-blue-600 active:bg-blue-700; /* Add hover and active states */
+            transition-property: background-color; /* Smooth transition */
+            transition-duration: 0.2s;
+        }
+
+        /* Style for user and bot messages */
+        .message {
+            @apply mb-2 rounded-lg p-3 text-gray-800;
+        }
+
+        .user-message {
+            @apply bg-green-100 self-end; /* Align user messages to the right */
+        }
+
+        .bot-message {
+            @apply bg-gray-100;
+        }
+
+        /* Utility classes for lists */
+        ul {
+            @apply list-disc pl-5;
+        }
+
+        ol {
+            @apply list-decimal pl-5;
+        }
+    </style>
+</head>
+
+<body class="chat-container">
+    <div>
+        <h1 class="text-xl font-bold text-center text-green-500">Chatbot World</h1>
+        <div class="message-holder">
+            <div id="messageHolder"></div> </div>
+    </div>
+
+    <div class="input-area">
+        <input type="text" class="chat-input" placeholder="Chat..." id="chat">
+        <button id="btn" class="send-button">Send</button>
+    </div>
+
+
+    <script type="importmap">
+        {
+            "imports": {
+                "@google/generative-ai": "https://esm.run/@google/generative-ai"
+            }
+        }
+    </script>
+    <script type="module" src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

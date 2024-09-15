@@ -18,7 +18,7 @@ def minimumNumber(n:int, password:str)->int:
     return max(length, needing)
 
 test = "#HackerRank"
-# print(minimumNumber(0, test))
+# print(minimumNumber(0, testing.js))
 
 import re
 
