@@ -27,7 +27,7 @@ class Solution:
             if node:
                 if level not in result:
                     result[level] = []
-                result[level].append(node.val)
+                result[level].append(node.value)
                 for i in node.children:
                     Q.append((i, level + 1))
 

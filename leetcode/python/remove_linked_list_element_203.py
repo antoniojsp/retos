@@ -13,8 +13,8 @@ class Solution:
         dummy = answer
         current = head
         while current:
-            if current.val != val:
-                new_node = ListNode(current.val)
+            if current.value != val:
+                new_node = ListNode(current.value)
                 dummy.next = new_node
                 dummy = dummy.next
             current = current.next
@@ -34,7 +34,7 @@ class Solution:
         current = answer
 
         while current.next:
-            if current.next.val == val:
+            if current.next.value == val:
                 current.next = current.next.next
             else:
                 current = current.next

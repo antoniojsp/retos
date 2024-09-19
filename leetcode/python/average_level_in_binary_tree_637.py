@@ -18,7 +18,7 @@ class Solution:
             node, level = Q.popleft()
             if level not in values:
                 values[level] = (0 ,0)
-            values[level] = (values[level][0 ] +node.val, values[level][1 ] +1)
+            values[level] = (values[level][0 ] + node.value, values[level][1] + 1)
 
             if node.left:
                 Q.append((node.left, level +1))

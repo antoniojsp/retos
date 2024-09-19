@@ -20,7 +20,7 @@ class Solution:
     def insertGreatestCommonDivisors(self, head: Optional[ListNode]) -> Optional[ListNode]:
         current = head
         while current.next:
-            gcd_val = self.gcd(current.val, current.next.val)
+            gcd_val = self.gcd(current.value, current.next.value)
             new_node = ListNode(gcd_val)
             next = current.next
             current.next = new_node

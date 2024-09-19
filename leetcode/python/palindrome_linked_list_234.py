@@ -8,7 +8,7 @@ class Solution:
         visited = []
         temp = head
         while temp:
-            visited.append(temp.val)
+            visited.append(temp.value)
             temp = temp.next
 
         return visited == list(reversed(visited))
@@ -44,7 +44,7 @@ class Solution:
 
         slow = prev
         while slow and head:
-            if slow.val != head.val:
+            if slow.val != head.value:
                 return False
             slow = slow.next
             head = head.next

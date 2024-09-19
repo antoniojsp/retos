@@ -42,7 +42,7 @@ class MinStack:
         self.state.pop()
 
     def top(self):
-        return self.state.peek().val
+        return self.state.peek().value
 
     def getMin(self):
         return self.state.peek().min

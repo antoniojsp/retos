@@ -19,7 +19,7 @@ class Solution:
             if node.left:
                 Q.append(node.left)
                 if node.left.left is None and node.left.right is None:
-                    left_sum += node.left.val
+                    left_sum += node.left.value
             if node.right:
                 Q.append(node.right)
 

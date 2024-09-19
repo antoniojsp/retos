@@ -12,7 +12,7 @@ class Solution:
         if not root:
             return False
 
-        stack = [(root, root.val)]
+        stack = [(root, root.value)]
         while stack:
             node, val = stack.pop()
 
@@ -20,9 +20,9 @@ class Solution:
                 return True
 
             if node.left:
-                stack.append((node.left, val + node.left.val))
+                stack.append((node.left, val + node.left.value))
             if node.right:
-                stack.append((node.right, val + node.right.val))
+                stack.append((node.right, val + node.right.value))
 
         return False
 

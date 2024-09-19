@@ -12,10 +12,10 @@ class Solution:
         current = root
 
         while current:
-            if p.val <= current.val <= q.val or p.val >= current.val >= q.val:
+            if p.value <= current.value <= q.value or p.value >= current.value >= q.value:
                 return current
-            elif p.val < current.val and q.val < current.val:
+            elif p.value < current.value and q.value < current.value:
                 current = current.left
-            elif p.val > current.val and q.val > current.val:
+            elif p.value > current.value and q.value > current.value:
                 current = current.right
 

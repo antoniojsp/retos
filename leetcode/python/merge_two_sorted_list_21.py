@@ -19,11 +19,11 @@ class Solution:
         temp2 = list2
 
         while temp1 and temp2:
-            if temp1.val <= temp2.val:
-                min_val = temp1.val
+            if temp1.value <= temp2.value:
+                min_val = temp1.value
                 temp1 = temp1.next
             else:
-                min_val = temp2.val
+                min_val = temp2.value
                 temp2 = temp2.next
 
             result.next = ListNode(min_val)

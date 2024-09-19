@@ -17,10 +17,10 @@ class Solution:
             node = Q[left]
             left += 1
 
-            if k- node.val in seen:
+            if k- node.value in seen:
                 return True
 
-            seen[node.val] = True
+            seen[node.value] = True
 
             if node.left:
                 Q.append(node.left)

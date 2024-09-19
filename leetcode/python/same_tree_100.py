@@ -13,13 +13,13 @@ class Solution:
 
         Q = [(p, q)]
 
-        if p.val != q.val:
+        if p.value != q.value:
             return False
 
         while Q:
             temp = Q.pop(0)
-            p_node, p_val = temp[0], temp[0].val
-            q_node, q_val = temp[1], temp[1].val
+            p_node, p_val = temp[0], temp[0].value
+            q_node, q_val = temp[1], temp[1].value
 
             if p_val != q_val:
                 return False

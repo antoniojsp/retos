@@ -13,7 +13,7 @@ class Solution:
 
         Q = deque([(root, 0)])  # creates a deque. Faster than using a list to pop first item.
         max_level = 0
-        sum_level = {0: root.val}  #
+        sum_level = {0: root.value}  #
         while Q:
             node, level = Q.popleft()
             if level + 1 not in sum_level:
@@ -21,11 +21,11 @@ class Solution:
             if node.left:
                 left = node.left
                 Q.append((left, level + 1))
-                sum_level[level + 1] += left.val
+                sum_level[level + 1] += left.value
             if node.right:
                 right = node.right
                 Q.append((right, level + 1))
-                sum_level[level + 1] += right.val
+                sum_level[level + 1] += right.value
             max_level = max(max_level, level)
 
         return sum_level[max_level]

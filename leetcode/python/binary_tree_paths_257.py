@@ -17,10 +17,10 @@ class Solution:
         while S:
             node, path = S.pop()
             if node.left:
-                S.append((node.left, path + f"->{node.left.val}"))
+                S.append((node.left, path + f"->{node.left.value}"))
 
             if node.right:
-                S.append((node.right, path + f"->{node.right.val}"))
+                S.append((node.right, path + f"->{node.right.value}"))
 
             if not node.left and not node.right:
                 result.append(path)

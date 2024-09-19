@@ -1,0 +1,1 @@
+curl -X GET "https://api.example.com/endpoint" -H "Authorization: Bearer YOUR_API_KEY"

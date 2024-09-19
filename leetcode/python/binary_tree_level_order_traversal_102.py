@@ -14,9 +14,9 @@ class Solution:
         while Q:
             node, level = Q.popleft()
             if level < len(res):
-                res[level].append(node.val)
+                res[level].append(node.value)
             else:
-                res.append([node.val])
+                res.append([node.value])
 
             if node.left:
                 Q.append((node.left, level+1))
