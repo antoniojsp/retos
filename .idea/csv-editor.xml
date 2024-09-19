@@ -10,20 +10,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/data_annotation/9-12B/pokemon/info.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/data_annotation/K-32403/csv_check/log.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
       </map>
     </option>
   </component>
