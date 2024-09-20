@@ -9,6 +9,6 @@ class Solution:
         smaller_than_k = 0
         for val in nums:
             if val < k:
-                smaller_than_ k+ =1
+                smaller_than_k +=1
 
         return smaller_than_k
