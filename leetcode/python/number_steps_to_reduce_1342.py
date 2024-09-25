@@ -3,9 +3,9 @@ class Solution:
     def numberOfSteps(self, num: int) -> int:
         count = 0
         while num > 0:
-            coun t+ =1
-            if nu m % 2= =0:
-                nu m// =2
+            count+=1
+            if num % 2==0:
+                num//=2
             else:
-                nu m- =1
+                num-=1
         return count
