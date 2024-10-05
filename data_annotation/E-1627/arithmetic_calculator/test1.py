@@ -1,3 +1,6 @@
+import unittest
+
+
 class Calculator:
     def __init__(self, array):
         self.array = array
@@ -14,7 +17,6 @@ class Calculator:
     def sum_entire_array(self):
         return sum(self.array)
 
-import unittest
 
 class TestCalculator(unittest.TestCase):
     def test_calculate_average(self):
@@ -33,6 +35,7 @@ class TestCalculator(unittest.TestCase):
         calculator = Calculator([1, 2, 3, 4, 5])
         self.assertEqual(calculator.sum_entire_array(), 15)
 
+
 if __name__ == '__main__':
     unittest.main()
 # testing.js = [1, 2, 3, 4, 5]
@@ -44,18 +47,24 @@ if __name__ == '__main__':
 # count_even = 0
 # for i in testing.js:
 #     if i % 2 ==0:
+
+
 #         even+=i
 #     else:
 #         odd+=i
 # print(f"Even Sum {even} Odd sum {odd}")
 
+
 def get_values_from_user():
     values = input("Enter the values (space-separated): ")
     return [int(value) for value in values.split()]
 
+
 def get_operation_from_user():
-    operation = input("Enter the operation (1 for average, 2 for sum odd, 3 for sum even, 4 for sum entire array): ")
+    operation = input(
+        "Enter the operation (1 for average, 2 for sum odd, 3 for sum even, 4 for sum entire array): ")
     return int(operation)
+
 
 def perform_operation(values, operation):
     calculator = Calculator(values)
@@ -70,11 +79,13 @@ def perform_operation(values, operation):
     else:
         return "Invalid operation"
 
+
 def main():
     values = get_values_from_user()
     operation = get_operation_from_user()
     result = perform_operation(values, operation)
     print(result)
+
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,13 @@
+Task : Implement a word count algorithm using MapReduce to count the number of times each word
+appears in a document.
+
+Steps to take :
+
+Step 1: Obtain a text document that you want to perform word count on. This can be a plain text file
+or a dataset in a suitable format.
+Step 2: Implement a MapReduce program to count the number of times each word appears in the
+document. This program should consist of:
+• A Mapper function that tokenizes the text, emits key-value pairs (word, 1) for each
+word.
+• A Reducer function that receives key-value pairs, groups them by key (word), and
+sums up the values to get the word count.
