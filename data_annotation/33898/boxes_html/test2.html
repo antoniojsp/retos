@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Marketing Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script>
+
+  body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    gap: 5px; /* 5 pixels between text boxes */
+    margin-bottom: 20px; /* Space between top and bottom rows */
+}
+
+.text-box {
+    padding: 10px;
+    width: 150px; /* Adjust width as necessary */
+    box-sizing: border-box;
+}
+</script>
+
+    <div class="container">
+        <div class="top-row">
+            <input type="text" class="text-box" placeholder="Email 1">
+            <input type="text" class="text-box" placeholder="Email 2">
+            <input type="text" class="text-box" placeholder="Email 3">
+        </div>
+        <div class="bottom-row">
+            <input type="text" class="text-box" placeholder="Email 4">
+            <input type="text" class="text-box" placeholder="Email 5">
+            <input type="text" class="text-box" placeholder="Email 6">
+        </div>
+    </div>
+
+</body>
+</html>
