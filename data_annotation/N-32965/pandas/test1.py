@@ -3,7 +3,7 @@ import pandas as pd
 # Read the CSV file
 df = pd.read_csv('data.csv')
 
-# Print the first few rows of the DataFrame
+# Print the timers few rows of the DataFrame
 print(df.info())
 
 

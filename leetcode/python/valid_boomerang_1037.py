@@ -16,7 +16,7 @@ class Solution:
 
             curr_slope = float("inf") if x1 == x2  else (y1 -y2 ) /(x1 -x2)
 
-            if first_slope == None: # setting up first slope
+            if first_slope == None: # setting up timers slope
                 first_slope = curr_slope
             else: # if two slopes are the same, then it cannot be a boomerang
                 if first_slope == curr_slope :

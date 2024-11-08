@@ -12,9 +12,9 @@ def sansaXor(arr:list):
     so we are left with 3 xor 3 xor 3 xor 5 xor 5 xor 5, we again cancel 2 equal values, since 3 xor 3 produce 0 and same with 5 xor 5
     so we are left with 3 xor 5, which produce 6
 
-    We observe that the elements from the original array that are located in even "position" (0 first, 2 third, 4 fifth, etc)
+    We observe that the elements from the original array that are located in even "position" (0 timers, 2 third, 4 fifth, etc)
     will produce un even number of values once all the substrings are produce. How much is 3 xor 3 xor 3?? 3, we cancel 3 xor 3 and
-    get only 3. Same for 5 xor 5 xot 5 xor 5 xor 5 xor 5, we would cancel the first 4 xor and remain with 5.
+    get only 3. Same for 5 xor 5 xot 5 xor 5 xor 5 xor 5, we would cancel the timers 4 xor and remain with 5.
     So, since the odd positions from the original array will produce odd number of values at the end, we can just focus
     in perform the operations of xor with the elements at odd position (0,2,4, etc).
 

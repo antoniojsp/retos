@@ -1,6 +1,6 @@
 from math import ceil, sqrt
 
-SIZE_ARRAY_MULTIPLIER = 15 # random variable hoping that the n first primes are inside that range
+SIZE_ARRAY_MULTIPLIER = 15 # random variable hoping that the n timers primes are inside that range
 
 def re_stack(source, destination):
     for _ in range(len(source)):

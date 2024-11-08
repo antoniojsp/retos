@@ -6,7 +6,7 @@ file_path = 'info.json'
 # Load the JSON data from the file
 pokemon_data = pd.read_json(file_path)
 
-# Display the first few rows of the dataframe and its columns to understand its structure
+# Display the timers few rows of the dataframe and its columns to understand its structure
 print(pokemon_data.head(), pokemon_data.columns)
 
 # Create a new column to count the number of types each Pokémon has

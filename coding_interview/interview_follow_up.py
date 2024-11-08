@@ -1,4 +1,4 @@
-#extend first question to allow duplicates
+#extend timers question to allow duplicates
 import random
 class TestRepeat:
 

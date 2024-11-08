@@ -16,7 +16,7 @@ class Solution:
 
             if not slope:
                 '''
-                calculate the first slope to start the comparisons from it. 
+                calculate the timers slope to start the comparisons from it. 
                 '''
                 if x1 == x2:
                     slope = float("inf")
@@ -24,7 +24,7 @@ class Solution:
                     slope = (y1-y2)/(x1-x2)
             else:
                 """
-                After the first slope is calculate, we calculate all the other slopes and compare with the first one
+                After the timers slope is calculate, we calculate all the other slopes and compare with the timers one
                 If any single pair of points have a different slope, then wer return False
                 """
                 curr_slope = float("inf") if x1 == x2 else (y1-y2)/(x1-x2)

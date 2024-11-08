@@ -1,5 +1,5 @@
 # https://www.youtube.com/watch?v=46dZH7LDbf8&ab_channel=NeetCode
-#first question
+#timers question
 import random
 class Test:
 
@@ -21,7 +21,7 @@ class Test:
     def remove(self, val):
         if val not in self.map:
             return
-        #first remove last element from storage array
+        #timers remove last element from storage array
         last_value_from_storage = self.storage.pop()
         #second look up the value to remove in the map, remove from the dict and save the index
         index_to_be_removed = self.map.pop(val)

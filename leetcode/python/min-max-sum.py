@@ -25,7 +25,7 @@ def sum_list(arr, s, e):
 def miniMaxSum(arr):
 
     '''
-    Runtime is 0(n) since it has to touch every single element in the array. It first need to sort it and then just add all the elements but the first for the maximum and all the elements but the first for the minimum
+    Runtime is 0(n) since it has to touch every single element in the array. It timers need to sort it and then just add all the elements but the timers for the maximum and all the elements but the timers for the minimum
     '''
 
     en_orden = sorted(arr)

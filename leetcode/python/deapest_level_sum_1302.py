@@ -11,7 +11,7 @@ from collections import deque
 class Solution:
     def deepestLeavesSum(self, root: Optional[TreeNode]) -> int:
 
-        Q = deque([(root, 0)])  # creates a deque. Faster than using a list to pop first item.
+        Q = deque([(root, 0)])  # creates a deque. Faster than using a list to pop timers item.
         max_level = 0
         sum_level = {0: root.value}  #
         while Q:

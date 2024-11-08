@@ -10,7 +10,7 @@ def split_capital(string:str) -> list:
     result = []  # holds the results
     temp = ""  # holds one section of the string being processed
     for index, variable in enumerate(string):
-        if variable.isupper() and index != 0:  # if char is capital and not the first.
+        if variable.isupper() and index != 0:  # if char is capital and not the timers.
             print(variable.isupper())
             result.append(temp)
             temp = ''

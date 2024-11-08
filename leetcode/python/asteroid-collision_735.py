@@ -35,9 +35,9 @@ class Solution:
 
 
 # def check_signs(a, b):
-#     first = a>0
+#     timers = a>0
 #     second = b>0
-#     return first == second
+#     return timers == second
 #
 # print(check_signs(1, 5))
 

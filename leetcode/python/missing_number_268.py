@@ -13,9 +13,9 @@ class Solution:
 #     def missingNumber(self, nums: List[int]) -> int:
 #         lenght = len(nums)  # values from 0 to lenght
 #         nums.sort() #  sort array in ascending order
-#         j = 0  # first index
+#         j = 0  # timers index
 #         for i in range(lenght):
-#             if i != nums[j]:  #. if first index value and j are equal, means value present
+#             if i != nums[j]:  #. if timers index value and j are equal, means value present
 #                 return i  # return value of i if it's not fun in nums.
 #             j +=1  # check next element
 #
