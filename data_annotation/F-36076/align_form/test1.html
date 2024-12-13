@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Selector</title>
+  <style>
+    html.light-theme {
+      background-color: #fff;
+      color: #000;
+    }
+
+    html.dark-theme {
+      background-color: #000;
+      color: #fff;
+    }
+  </style>
+
+</head>
+<body>
+
+
+  <h1>My Website</h1>
+  <button onclick="setTheme('light')">Light</button>
+  <button onclick="setTheme('dark')">Dark</button>
+    <button onclick="setTheme('system')">System</button>
+  <script>
+    function setTheme(theme) {
+      localStorage.setItem('theme', theme);
+      if (theme === 'dark') {
+        document.documentElement.classList.remove('light-theme');
+        document.documentElement.classList.add('dark-theme');
+      } else if (theme === 'light') {
+        document.documentElement.classList.remove('dark-theme');
+        document.documentElement.classList.add('light-theme');
+      } else if (theme === 'system') {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
+            document.documentElement.classList.remove('light-theme');
+            document.documentElement.classList.add('dark-theme');
+        } else {
+            document.documentElement.classList.remove('dark-theme');
+            document.documentElement.classList.add('light-theme');
+        }
+      }
+    }
+  </script>
+</body>
+</html>

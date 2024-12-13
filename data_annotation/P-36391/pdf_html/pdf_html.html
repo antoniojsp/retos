@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PDF with Embedded Image</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+<style>
+#contentToRender {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#myImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+</style>
+</head>
+<body>
+
+<h1>Generate PDF with Image</h1>
+
+<div id="contentToRender">
+  <h2>Content for PDF</h2>
+  <p>This is some text content.</p>
+  <img id="myImage" src="https://pngimg.com/d/mario_PNG125.png" alt="My Image">
+</div>
+
+<button onclick="generatePDF()">Generate PDF</button>
+
+<script>
+function generatePDF() {
+  const { jsPDF } = window.jspdf;
+
+  const content = document.getElementById('contentToRender');
+
+  html2canvas(content).then(canvas => {
+    const imgData = canvas.toDataURL('image/png'); // Get image data
+
+    const pdf = new jsPDF({
+      orientation: 'portrait', // or 'landscape'
+      unit: 'mm',
+      format: 'a4'
+    });
+
+    const width = pdf.internal.pageSize.getWidth();
+    const height = (canvas.height * width) / canvas.width; // Calculate proportional height
+
+    pdf.addImage(imgData, 'PNG', 0, 0, width, height); // Add image to PDF
+
+    pdf.save('my_document.pdf');
+  });
+}
+</script>
+
+</body>
+</html>

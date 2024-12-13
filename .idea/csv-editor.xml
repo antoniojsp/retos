@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/coding_interview/Alternative Fuel Vehicles US.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/data_annotation/N-32965/pandas/data.csv">
           <value>
             <Attribute>

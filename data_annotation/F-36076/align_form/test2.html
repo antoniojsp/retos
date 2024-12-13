@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Selector Example</title>
+    <script>
+        (function() {
+            function applyTheme(theme) {
+                document.documentElement.setAttribute('data-theme', theme);
+            }
+
+            // Get the user's theme preference from localStorage
+            var theme = localStorage.getItem('theme');
+
+            if (theme) {
+                applyTheme(theme);
+            } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                applyTheme('dark');
+            } else {
+                applyTheme('light');
+            }
+        })();
+    </script>
+    <style>
+        /* Default light theme styles */
+        :root[data-theme='light'] {
+            --background-color: white;
+            --text-color: black;
+        }
+
+        /* Dark theme styles */
+        :root[data-theme='dark'] {
+            --background-color: black;
+            --text-color: white;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Theme Selector Example</h1>
+    <button onclick="setTheme('light')">Light Theme</button>
+    <button onclick="setTheme('dark')">Dark Theme</button>
+    <button onclick="setTheme('system')">System Theme</button>
+    <script>
+        function setTheme(theme) {
+            if (theme === 'system') {
+                localStorage.removeItem('theme');
+                theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            } else {
+                localStorage.setItem('theme', theme);
+            }
+            document.documentElement.setAttribute('data-theme', theme);
+        }
+    </script>
+</body>
+</html>
