@@ -1,1 +1,0 @@
-npm install @apollo/server express4 @apollo/server/plugin/drainHttpServer graphql-ws body-parser cors @graphql-tools/schema
